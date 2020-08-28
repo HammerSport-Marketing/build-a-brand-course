@@ -1,0 +1,231 @@
+/* Reset */
+* {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        outline: 0;
+        font-size: 16px;
+        vertical-align: baseline;
+        background: transparent;
+    }
+
+/* Root Font Sizes */
+@media screen and (min-width: 320px) {
+html {
+  font-size: 7px;
+}
+}
+@media screen and (min-width: 576px) {
+  html {
+    font-size: 10px;
+  }
+}
+@media screen and (min-width: 768px) {
+  html {
+    font-size: 13px;
+  }
+}
+@media screen and (min-width: 992px) {
+  html {
+    font-size: 16px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  html {
+    font-size: 19px;
+  }
+}
+
+/* General/Brand Styles */
+
+/* Colors */
+#dark-blue {
+  color: #273F6C;
+}
+
+#bg-blue {
+  background-color: #273F6C
+}
+
+/* Font Groups */
+#h1 {
+  font-family: 'Nunito', sans-serif;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+#p-small {
+  font-family: 'Nunito', sans-serif;
+  font-size: 0.9rem;
+}
+
+#p-small {
+  font-family: 'Nunito', sans-serif;
+  font-size: 0.875rem;
+}
+
+#p-reg {
+  font-family: 'Nunito', sans-serif;
+  font-size: 1.125rem;
+}
+
+#p-big {
+  font-family: 'Nunito', sans-serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+#poppins-small {
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  font-size: 0.9rem;
+}
+
+#poppins {
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+#poppins-big {
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  font-size:  2.25rem;
+}
+
+
+
+
+/* Page Styles */
+
+/* Head Section*/
+
+#head-section {
+  background-color: ;
+  height: 34.8125rem;
+  background-image: url("../Images/Header.png");
+  background-size: cover;
+  background-position: center;
+}
+
+/* Head Section Nav*/
+
+#buy-now-button {
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  font-size: 1.125rem;
+  color: #D8602D;
+  font-weight: bold;
+}
+
+/* Hello Friends Section*/
+
+#grad-box {
+  background: linear-gradient(90deg, #4861B1 0%, #D8602C 100%);
+  border-radius: 0.6875rem;
+  width: 90%;
+}
+
+/* Castle Section*/
+
+#background-orange {
+  font-family: 'Nunito', sans-serif;
+  font-weight: bold;
+  font-size: 1.5rem;
+
+  padding: 0px 1.25rem 0px 1.25rem;
+  background: rgba(216, 96, 44, 0.35);
+  box-shadow: inset 0px 1.125rem 0px 0px white;
+  border-radius: 0.0625rem;
+}
+
+#custom-border-left {
+  border-left: solid white 10px;
+  border-radius: 0;
+}
+
+/* Proprietary BP Section*/
+
+#background-blue {
+  width: 100%;
+  padding-bottom: 0.625rem;
+  background: rgba(2, 99, 255, 0.15);
+  box-shadow: inset 0px 0.9375rem 0px 0px white;
+  border-radius: 1px;
+  font-family: 'Nunito', sans-serif;
+  font-size: 1.125rem;
+}
+
+/* Proprietary BDP Section*/
+
+#grad-head {
+  font-family: 'Nunito', sans-serif;
+  font-weight: bold;
+  font-size: 1.5rem;
+  padding-bottom: 1.25rem;
+  background: -webkit-linear-gradient(left, #1234A8, #D8602D);
+  background: -o-linear-gradient(right, #1234A8, #D8602D);
+  background: -moz-linear-gradient(right, #1234A8, #D8602D);
+  background: linear-gradient(to right, #1234A8, #D8602D);
+ -webkit-background-clip: text;
+ -webkit-text-fill-color: transparent;
+  text-shadow: 0px 0.25rem 0.25rem rgba(0, 0, 0, 0.25);
+}
+
+/* Frame 5 Section (Dark Blue Boxes)*/
+
+#dark-blue-box {
+  width: 13.0625rem;
+  height: 8rem;
+  background-color: #273F6C;
+  border-radius: 0.9375rem;
+
+  font-family: 'Nunito', sans-serif;
+  font-weight: bold;
+  font-size: 0.800rem;
+  color: white;
+}
+
+#dark-blue-box-col {
+  width: 25rem;
+  height: 8rem;
+  background-color: #273F6C;
+  border-radius: 0.9375rem;
+
+  font-family: 'Nunito', sans-serif;
+  font-weight: bold;
+  font-size: 0.800rem;
+  color: white;
+}
+
+
+/* Official Price Section*/
+
+#price-blue {
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  font-size:  3rem;
+  color: #273F6C;
+}
+
+#price-orange {
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  font-size:  3rem;
+  color: #D8602C;
+}
+
+/* Get Started Section*/
+
+#get-started-btn {
+  width: 22.4375rem;
+  height: 4.0625rem;
+  background-color: #D8602C;
+  border: solid #D8602C 1px;
+  border-radius: 2.90625rem;
+
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: white;
+}
