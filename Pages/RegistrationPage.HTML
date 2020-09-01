@@ -7,8 +7,12 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    
+
+    <!-- Custome CSS -->
     <link rel="stylesheet" href="../CSS/Custom_Bootstrap.css" />
+
+    <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&family=Poppins:wght@400;700&display=swap" rel="stylesheet">
 
     <title>Registration Page</title>
   </head>
@@ -19,26 +23,26 @@
 
   <!-- HSM Logo -->
       <div class="row">
-        <img src="../Images\HSM_LOGO_with_new_colors.svg"  alt="" loading="lazy" style="width: 25rem; height: auto" />
+        <img src="../Images\HSM_LOGO_with_new_colors.svg"  alt="" loading="lazy" style="width: 15rem; height: auto" />
       </div>
 
       <!-- Head Banner Section / Img -->
       <div class="row bg-warning text-left" style="height: 15.1875rem">
         <div class="col my-auto">
-          <h1>WEBINAR:</h1>
-          <h1>Build a Brand</h1>
+          <h1 id="poppins">WEBINAR:</h1>
+          <h1 id="poppins">Build a Brand</h1>
         </div>
       </div>
 
       <!-- Body Section -->
-      <div class="row mx-auto py-3">
+      <div class="row mx-auto py-3 bg-danger">
         <!-- (Left) Body Info and Images -->
         <div class="col-8 my-auto">
           <div class="row mx-auto" style="width: 95%">
             <p class="mb-5">August 28, 2020 11:00 - 12:00 PST</p>
           </div>
           <div class="row mx-auto" style="width: 95%">
-            <p class="text-left">
+            <p id="p-small" class="text-left mb-5">
               In the spirit of altruism and helping others to crush their goals,<br/>
               achieve their dreams, and reach total fulfillment, I want to share something with you.
               <br/><br/>
@@ -52,20 +56,18 @@
           <!-- Lewis Img -->
             <div class="col">
             <img class="mx-auto" src="../Images/map.svg" alt="" loading="lazy"  style="width: 9rem; height: auto"/>
-            <p class="mx-auto">
+            <p id="p-small" class="mx-auto mb-0 font-weight-bold">
               Lewis T. May
-              <br/>
-              Co-Founder
             </p>
+            <p id="p-small">Co-Founder</p>
             </div>
           <!-- Riley Img -->
             <div class="col ">
             <img class="mx-auto" src="../Images/map.svg" alt="" loading="lazy" style="width: 9rem; height: auto"/>
-            <p class="mx-auto">
+            <p id="p-small" class="mx-auto mb-0 font-weight-bold">
               Lewis T. May
-              <br/>
-              Co-Founder
             </p>
+            <p id="p-small"> Co-Founder</p>
             </div>
             <!-- Blank Columns to create space -->
             <div class="col"></div>
@@ -73,30 +75,39 @@
           </div>
         </div>
         <!-- (Right) Form -->
-        <div id="form-grad" class="col mx-auto py-3">
+        <div id="form-grad" class="col mx-auto" style="height: 30.5625rem">
+          <!-- Form Heading -->
           <div class="row text-white">
             <h1 class="mx-auto">Register Now</h1>
             <p class="mx-auto mb-3">Fill out this form to register for the webinar</p>
           </div>
-          <div class="row mx-auto">
-            <form class="mx-auto">
+          <!-- Inputs For Form -->
+          <div class="col mx-auto text-left">
+            <form class="mx-auto" style="width: 80%">
+              <!-- Input (Full Name) -->
               <div class="form-group">
                 <label for="exampleInputEmail1"></label>
                 <input id="input" type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Full name">
               </div>
+              <!-- Input (Company Name) -->
               <div class="form-group">
                 <label for="exampleInputEmail1"></label>
                 <input id="input" type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Company name">
               </div>
+              <!-- Input (Company Email) -->
               <div class="form-group">
                 <label for="exampleInputEmail1"></label>
                 <input id="input" type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Company email">
               </div>
+              <!-- Input (Phone Number) -->
               <div class="form-group mb-5">
                 <label for="exampleInputEmail1"></label>
                 <input id="input" type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Phone number">
               </div>
-              <button type="submit" class="btn btn-primary">Submit</button>
+              <!-- Submit Button -->
+              <button id="submit-button" type="submit" class="btn">
+                Submit
+              </button>
             </form>
           </div>
         </div>
