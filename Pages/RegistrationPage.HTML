@@ -7,13 +7,91 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    
     <link rel="stylesheet" href="../CSS/Custom_Bootstrap.css" />
 
     <title>Registration Page</title>
   </head>
   <body>
 
-    <div class="container"> <h1>hello</h1></div>
+  <!-- Main Container -->
+    <div class="container-fluid text-center">
+
+  <!-- HSM Logo -->
+      <div class="row" style="height: 3.75rem">
+        <img src="../Images\HSM_LOGO_with_new_colors.svg" width="210" height="auto" alt="" loading="lazy" />
+      </div>
+
+      <!-- Head Banner Section / Img -->
+      <div class="row bg-info text-left">
+        <div class="col">
+          <h1>WEBINAR:</h1>
+          <h1>Build a Brand</h1>
+        </div>
+      </div>
+
+      <!-- Body Section -->
+      <div class="row" style="height: 34.8125rem">
+        <!-- (Left) Body Info and Images -->
+        <div class="col-8 my-auto">
+          <div class="row bg-primary mx-auto" style="width: 95%">
+            <p class="mb-5">August 28, 2020 11:00 - 12:00 PST</p>
+          </div>
+          <div class="row bg-primary mx-auto" style="width: 95%">
+            <p class="text-left">
+              In the spirit of altruism and helping others to crush their goals,<br/>
+              achieve their dreams, and reach total fulfillment, I want to share something with you.
+              <br/><br/>
+              My certainty was created by taking action, the action I’m about to tell you about.
+              <br/><br/>
+              It has allowed us to grow from founders to a team of ten, fast, and all united by something greater.
+            </p>
+          </div>
+          <!-- Thumbnail Photos-->
+          <div class="row bg-primary mx-auto" style="width: 95%">
+          <!-- Lewis Img -->
+            <div class="col">
+            <img class="mx-auto" src="../Images/map.svg" width="90" height="auto" alt="" loading="lazy"/>
+            <p class="mx-auto">
+              Lewis T. May
+              <br/>
+              Co-Founder
+            </p>
+            </div>
+          <!-- Riley Img -->
+            <div class="col ">
+            <img class="mx-auto" src="../Images/map.svg" width="90" height="auto" alt="" loading="lazy"/>
+            <p class="mx-auto">
+              Lewis T. May
+              <br/>
+              Co-Founder
+            </p>
+            </div>
+            <!-- Blank Columns to create space -->
+            <div class="col"></div>
+            <div class="col"></div>
+          </div>
+        </div>
+        <!-- (Right) Form -->
+        <div class="col bg-warning">
+          <div class="row">
+            <h1>Register Now</h1>
+            <p>Fill out this form to register for the webinar</p>
+          </div>
+          <div class="row">
+            <form>
+              <div class="form-group">
+                <label for="exampleInputEmail1">Email address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+              </div>
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+
+    </div>
     
 
     <!-- Optional JavaScript -->
