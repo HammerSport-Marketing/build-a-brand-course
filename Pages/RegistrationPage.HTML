@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="../CSS/Custom_Bootstrap.css" />
 
     <!-- Fonts -->
-  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&family=Poppins:wght@400;700&display=swap" rel="stylesheet">
 
     <title>Registration Page</title>
   </head>
@@ -22,7 +22,7 @@
     <div class="container-fluid text-center">
 
   <!-- HSM Logo -->
-      <div class="row">
+      <div class="row py-2">
         <img src="../Images\HSM_LOGO_with_new_colors.svg"  alt="" loading="lazy" style="width: 15rem; height: auto" />
       </div>
 
@@ -30,17 +30,135 @@
       <div class="row bg-warning text-left" style="height: 15.1875rem">
         <div class="col my-auto">
           <h1 id="poppins">WEBINAR:</h1>
-          <h1 id="poppins">Build a Brand</h1>
+          <h1 id="poppins" class="mb-0">Build a Brand</h1>
         </div>
       </div>
 
-      <!-- Body Section -->
-      <div class="row mx-auto py-3 bg-danger">
+<!-- Body Section (Only Displays on xs - sm) -->
+<div class="container py-5">
+
+  <!-- Calendar / Date -->
+  <div class="row">
+      <img class="mr-2" src="../Images/icon.png" style="width: 2rem; height: 1.5rem" />
+      <p class="mb-5">August 28, 2020 11:00 - 12:00 PST</p>
+  </div>
+
+     <!-- Body Text -->
+     <div class="row">
+      <p id="p-small" class="text-left mb-5">
+        In the spirit of altruism and helping others to crush their goals,<br/>
+        achieve their dreams, and reach total fulfillment, I want to share something with you.
+        <br/><br/>
+        My certainty was created by taking action, the action I’m about to tell you about.
+        <br/><br/>
+        It has allowed us to grow from founders to a team of ten, fast, and all united by something greater.
+      </p>
+    </div>
+
+    <!-- Thumbnail Photos-->
+    <div class="row d-flex justify-content-around">
+      
+      <!-- Lewis Img -->
+        <div class="col">
+        <img class="mx-auto mb-2" src="../Images/person.png" alt="" loading="lazy"  style="width: 7rem; height: auto"/>
+        <!-- Lewis Info -->
+        <p id="p-small" class="mx-auto mb-0 font-weight-bold">
+          Lewis T. May
+        </p>
+        <p id="p-small">Co-Founder</p>
+        </div>
+
+      <!-- Riley Img -->
+        <div class="col ">
+        <img class="mx-auto mb-2" src="../Images/person.png" alt="" loading="lazy" style="width: 7rem; height: auto"/>
+        <!-- Riley Info -->
+        <p id="p-small" class="mx-auto mb-0 font-weight-bold">
+          Riley Seaburg
+        </p>
+        <p id="p-small"> Co-Founder</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+    <div id="form-grad" class="row">
+    <!-- Form Heading -->
+    <div class="row text-white bg-danger">
+      <h1 class="">Register Now</h1>
+        <p class="">
+          Fill out this form to register for the webinar
+        </p>
+    </div>
+
+    <!-- Inputs For Form -->
+    <div class="col mx-auto py-5 text-left">
+      <form class="mx-auto" style="width: 80%">
+
+        <!-- Input (Full Name) -->
+        <div class="form-group">
+          <label for="FullName"></label>
+          <input id="input" type="text" class="form-control" id="FullName" aria-describedby="emailHelp" placeholder="Full name">
+        </div>
+
+        <!-- Input (Company Name) -->
+        <div class="form-group">
+          <label for="CompanyName"></label>
+          <input id="input" type="text" class="form-control" id="CompanyName" aria-describedby="emailHelp" placeholder="Company name">
+        </div>
+
+        <!-- Input (Company Email) -->
+        <div class="form-group">
+          <label for="Email"></label>
+          <input id="input" type="email" class="form-control" id="Email" aria-describedby="emailHelp" placeholder="Company email">
+        </div>
+
+        <!-- Input (Phone Number) -->
+        <div class="form-group mb-5">
+          <label for="PhoneNumber"></label>
+          <input id="input" type="text" class="form-control" id="PhoneNumber" aria-describedby="emailHelp" placeholder="Phone number">
+        </div>
+
+        <!-- Submit Button -->
+        <button id="submit-button" type="submit" class="btn">
+          Submit
+        </button>
+
+      </form>
+    </div>
+  </div>
+  </div>
+
+
+
+
+
+</div>
+
+            
+
+
+
+
+
+
+
+
+
+
+
+      <!-- Body Section (Only Displays on md - lx) -->
+        <div class="row d-none d-md-flex justify-content-around py-4">
+
         <!-- (Left) Body Info and Images -->
-        <div class="col-8 my-auto">
+        <div class="col-6 my-auto bg-danger">
+
+          <!-- Calendar / Date -->
           <div class="row mx-auto" style="width: 95%">
+            <img class="mr-2" src="../Images/icon.png" style="width: 2rem; height: 1.5rem" />
             <p class="mb-5">August 28, 2020 11:00 - 12:00 PST</p>
           </div>
+
+          <!-- Body Text -->
           <div class="row mx-auto" style="width: 95%">
             <p id="p-small" class="text-left mb-5">
               In the spirit of altruism and helping others to crush their goals,<br/>
@@ -51,67 +169,83 @@
               It has allowed us to grow from founders to a team of ten, fast, and all united by something greater.
             </p>
           </div>
+
           <!-- Thumbnail Photos-->
           <div class="row mx-auto" style="width: 95%">
+
           <!-- Lewis Img -->
             <div class="col">
-            <img class="mx-auto" src="../Images/map.svg" alt="" loading="lazy"  style="width: 9rem; height: auto"/>
+            <img class="mx-auto mb-2" src="../Images/person.png" alt="" loading="lazy"  style="width: 7rem; height: auto"/>
+            <!-- Lewis Info -->
             <p id="p-small" class="mx-auto mb-0 font-weight-bold">
               Lewis T. May
             </p>
             <p id="p-small">Co-Founder</p>
             </div>
+
           <!-- Riley Img -->
             <div class="col ">
-            <img class="mx-auto" src="../Images/map.svg" alt="" loading="lazy" style="width: 9rem; height: auto"/>
+            <img class="mx-auto mb-2" src="../Images/person.png" alt="" loading="lazy" style="width: 7rem; height: auto"/>
+            <!-- Riley Info -->
             <p id="p-small" class="mx-auto mb-0 font-weight-bold">
-              Lewis T. May
+              Riley Seaburg
             </p>
             <p id="p-small"> Co-Founder</p>
             </div>
+
             <!-- Blank Columns to create space -->
             <div class="col"></div>
             <div class="col"></div>
           </div>
         </div>
+
         <!-- (Right) Form -->
-        <div id="form-grad" class="col mx-auto" style="height: 30.5625rem">
+        <div id="form-grad" class="col-4 bg-info" style="height: 34.1875rem">
+
           <!-- Form Heading -->
           <div class="row text-white">
-            <h1 class="mx-auto">Register Now</h1>
+            <h1 class="mx-auto" style="width: 100%">Register Now</h1>
             <p class="mx-auto mb-3">Fill out this form to register for the webinar</p>
           </div>
+
           <!-- Inputs For Form -->
-          <div class="col mx-auto text-left">
+          <div class="col mx-auto py-5 text-left">
             <form class="mx-auto" style="width: 80%">
+
               <!-- Input (Full Name) -->
               <div class="form-group">
-                <label for="exampleInputEmail1"></label>
-                <input id="input" type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Full name">
+                <label for="FullName"></label>
+                <input id="input" type="text" class="form-control" id="FullName" aria-describedby="emailHelp" placeholder="Full name">
               </div>
+
               <!-- Input (Company Name) -->
               <div class="form-group">
-                <label for="exampleInputEmail1"></label>
-                <input id="input" type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Company name">
+                <label for="CompanyName"></label>
+                <input id="input" type="text" class="form-control" id="CompanyName" aria-describedby="emailHelp" placeholder="Company name">
               </div>
+
               <!-- Input (Company Email) -->
               <div class="form-group">
-                <label for="exampleInputEmail1"></label>
-                <input id="input" type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Company email">
+                <label for="Email"></label>
+                <input id="input" type="email" class="form-control" id="Email" aria-describedby="emailHelp" placeholder="Company email">
               </div>
+
               <!-- Input (Phone Number) -->
               <div class="form-group mb-5">
-                <label for="exampleInputEmail1"></label>
-                <input id="input" type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Phone number">
+                <label for="PhoneNumber"></label>
+                <input id="input" type="text" class="form-control" id="PhoneNumber" aria-describedby="emailHelp" placeholder="Phone number">
               </div>
+
               <!-- Submit Button -->
               <button id="submit-button" type="submit" class="btn">
                 Submit
               </button>
+
             </form>
           </div>
         </div>
       </div>
+      <!-- End Of Body Section (md - xl) -->
 
     </div>
     
