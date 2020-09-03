@@ -256,8 +256,7 @@ html {
 
 #head-background-img {
   background-image: url("../Images/reg-head.png");
-  background-size: cover;
-  background-position: center;
+  background-size: 100% 100%;
 }
 
 #form-grad {
@@ -267,16 +266,16 @@ border-radius: 0.9375rem;
 }
 
 #input{
-  background-color: transparent;
-  border-left: 0;
-  border-top: 0;
-  border-right: 0;
-  border-radius: 0;
+  background-color: white;
+  border-radius: 0.125rem;
   color: white;
 }
 
 .form-control::-webkit-input-placeholder {
-  color: white;
+  color: #D8602D;
+  font-weight: bold;
+  font-family: 'Nunito', sans-serif;
+  font-size: 1.125rem;
 }
 
 #submit-button {
