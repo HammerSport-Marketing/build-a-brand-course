@@ -45,8 +45,10 @@
 <!-- Body Section (Only Displays on xs) -->
     <div class="col d-sm-none my-5 mx-auto">
 
-      <img class="mb-2" src="../Images/calendar.png" style="width: 2rem; height: 1.5rem" />
+      <div class="row mx-auto">
+      <img class="mb-2 mr-3" src="../Images/calendar.png" style="width: 2rem; height: 1.5rem" />
       <p class="mb-5">August 28, 2020 11:00 - 12:00 PST</p>
+      </div>
 
       <p id="p-small" class="text-left mb-5">
         In the spirit of altruism and helping others to crush their goals,<br/>
@@ -86,20 +88,19 @@
 <!-- (Right) Form -->
   <div id="form-grad" class="col my-4 py-5">
 
-    <!-- Form Heading -->
-    <div class="col text-white">
-      <h1 class="mx-auto">
-        Register Now
-      </h1>
-      <p class="mx-auto mb-3">
-        Fill out this form to register for the webinar
-      </p>
-    </div>
-
 
 <!-- Inputs For Form -->
-    <div class="col mx-auto py-5 text-left">
-      <form class="mx-auto" style="width: 90%">
+    <div class="col mx-auto py-5 text-right">
+      <form class="">
+
+        <div class="col text-white text-left pl-0">
+          <h1 id="poppins" class="">
+            Register Now
+          </h1>
+          <p id="p-xs" class="mb-3">
+            Fill out this form to register for the webinar
+          </p>
+        </div>
 
                             <!-- Input (Full Name) -->
         <div class="form-group">
@@ -126,7 +127,7 @@
         </div>
 
         <!-- Submit Button -->
-        <button id="submit-button" type="submit" class="btn">
+        <button id="submit-button" type="submit" class="btn mt-5">
           Submit
         </button>
       </form>
@@ -166,7 +167,7 @@
 
           <!-- Calendar / Date -->
           <div class="row mx-auto">
-            <img class="mr-2" src="../Images/calendar.png" style="width: 2rem; height: 1.5rem" />
+            <img class="mr-3" src="../Images/calendar.png" style="width: 2rem; height: 1.5rem" />
             <p class="mb-5">August 28, 2020 11:00 - 12:00 PST</p>
           </div>
 
@@ -234,19 +235,19 @@
         <!-- (Right) Form -->
         <div id="form-grad" class="col-sm-5 col-md-5 col-lg-5 pt-3 pb-5">
 
-                    <!-- Form Heading -->
-                    <div class="row text-white">
-                      <h1 class="mx-auto w-100">
-                        Register Now
-                      </h1>
-                      <p class="mx-auto mb-3 w-100">
-                        Fill out this form to register for the webinar
-                      </p>
-                    </div>
-
                               <!-- Inputs For Form -->
           <div class="col py-5 text-right">
             <form class="">
+
+                    <!-- Form Heading -->
+                    <div class="row text-left text-white pl-3">
+                      <h1 id="poppins" class="mx-auto w-100">
+                        Register Now
+                      </h1>
+                      <p id="p-xs" class="mx-auto mb-3 w-100">
+                        Fill out this form to register for the webinar
+                      </p>
+                    </div>
 
                                   <!-- Input (Full Name) -->
               <div class="form-group">
@@ -273,7 +274,7 @@
               </div>
 
               <!-- Submit Button -->
-              <button id="submit-button" type="submit" class="btn">
+              <button id="submit-button" type="submit" class="btn mt-5">
                 Submit
               </button>
 

@@ -66,6 +66,11 @@ html {
   font-size: 0.875rem;
 }
 
+#p-xs {
+  font-family: 'Nunito', sans-serif;
+  font-size: 0.75rem;
+}
+
 #p-reg {
   font-family: 'Nunito', sans-serif;
   font-size: 1.125rem;
