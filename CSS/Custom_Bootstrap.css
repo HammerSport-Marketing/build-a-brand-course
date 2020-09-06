@@ -94,17 +94,34 @@ html {
   font-size: 1.5rem;
 }
 
+#poppinsMed {
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  font-size: 1.125rem;
+}
+
 #poppinsXs {
   font-family: 'Poppins', sans-serif;
   font-weight: bold;
   font-size: 1.08rem;
-  font-size: 1.03rem; /* Place holder for grad box font */
 }
 
 #poppins-big {
   font-family: 'Poppins', sans-serif;
   font-weight: bold;
   font-size:  2.25rem;
+}
+
+#poppins-checkOut {
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  font-size:  0.6875rem;
+}
+
+#poppins-checkOut-big {
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  font-size:  0.875rem;
 }
 
 
@@ -296,3 +313,8 @@ border-radius: 0.9375rem;
   border: solid #D8602C 1px;
   border-radius: 2.90625rem;
 }
+
+
+
+
+/* Check-out Page Styles */
