@@ -27,12 +27,12 @@
     <div id="bg-blue" class="container-fluid">
 
         <!-- Head Logo Section & Image -->
-        <div class="row py-3 pl-3">
+        <div class="row py-3 pl-3 mb-5">
             <img src="../Images\HSM_Logo_white.png" alt="" loading="lazy" style="width: 15rem; height: auto" />
         </div>
 
         <!-- Cart Total Section -->
-        <div id="form-grad" class="col-8 mx-auto">
+        <div id="cart-grad" class="col-8 mx-auto">
 
             <!-- Items -->
             <div class="row text-white border border-light border-top-0 border-left-0 border-right-0 py-5">
@@ -73,69 +73,78 @@
 
 
         <!-- Check-Out Form Section -->
-        <div class="col-10 mx-auto py-5 bg-light">
-
-            <!-- Form Section Heading -->
-            <div class="row mb-5">
-                <p>Check Out</p>
-            </div>
+        <div class="col-10 mx-auto py-5 bg-light" style="border-radius: 0.9375rem;">
 
             <!-- Form -->
-            <form>
+            <form class="ml-5">
+
+                <!-- Form Section Heading -->
+                <div class="row mb-5">
+                    <p class="ml-3">Check Out</p>
+                </div>
 
                 <!-- Contact Information -->
-                <div class="row">
-                    <p>Contact Information:</p>
+
+                <div class="row mb-2">
+                    <p class="ml-3">Contact Information:</p>
                 </div>
 
                 <div class="form-group">
-                    <label for="exampleInputEmail1">Email address</label>
-                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    <label for="name">Name</label>
+                    <input type="text" class="form-control border border-dark" id="name" style="width: 80%">
                 </div>
 
                 <div class="form-group">
-                    <label for="exampleInputPassword1">Password</label>
-                    <input type="password" class="form-control" id="exampleInputPassword1">
+                    <label for="email">Email Address</label>
+                    <input type="email" class="form-control border border-dark" id="email" style="width: 80%">
                 </div>
 
                 <div class="form-group mb-5">
-                    <label for="exampleInputPassword1">Password</label>
-                    <input type="password" class="form-control" id="exampleInputPassword1">
+                    <label for="phone-number">Phone Number</label>
+                    <input type="text" class="form-control border border-dark" id="phone-number" style="width: 80%">
                 </div>
 
                 <!-- Billing Details -->
-                <div class="row">
-                    <p>Billing Details:</p>
+
+                <div class="row mb-2">
+                    <p class="ml-3">Billing Details:</p>
                 </div>
 
                 <div class="form-group">
-                    <label for="exampleInputEmail1">Email address</label>
-                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    <label for="address">Address</label>
+                    <input type="text" class="form-control border border-dark" id="address" style="width: 80%">
                 </div>
 
                 <div class="form-group">
-                    <label for="exampleInputPassword1">Password</label>
-                    <input type="password" class="form-control" id="exampleInputPassword1">
+                    <label for="second-address">Second Address</label>
+                    <input type="text" class="form-control border border-dark" id="second-address" style="width: 80%">
                 </div>
 
                 <div class="row mb-5">
                     <div class="col">
-                        <input type="text" class="form-control" placeholder="First name">
+                        <label for="state">State</label>
+                        <input type="text" class="form-control border border-dark" id="state">
                     </div>
                     <div class="col">
-                        <input type="text" class="form-control" placeholder="Last name">
+                        <label for="zip-code">ZIP Code</label>
+                        <input type="text" class="form-control border border-dark" id="zip-code">
                     </div>
                     <div class="col">
-                        <input type="text" class="form-control" placeholder="Last name">
+                        <label for="country">Country</label>
+                        <input type="text" class="form-control border border-dark" id="country">
                     </div>
+                    <!-- Placeholder to create space-->
+                    <div class="col"></div>
                 </div>
 
                 <!-- Payment Information -->
-                <div class="row">
-                    <p>Payment Information:</p>
+
+                <div class="row mb-2">
+                    <p class="ml-3">Payment Information:</p>
                 </div>
 
-                <div class="form-check">
+                <!-- Credit Card Select -->
+                <div class="form-check mb-5">
                     <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
                     <label class="form-check-label bg-info" for="defaultCheck1">
                         Credit Card
@@ -143,27 +152,36 @@
                 </div>
 
                 <div class="form-group">
-                    <label for="exampleInputEmail1">Email address</label>
-                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    <label for="name-on-card">Name On the Card</label>
+                    <input type="text" class="form-control border border-dark" id="name-on-card" style="width: 50%">
                 </div>
 
                 <div class="form-group">
-                    <label for="exampleInputPassword1">Password</label>
-                    <input type="password" class="form-control" id="exampleInputPassword1">
+                    <label for="card-number">Card Number</label>
+                    <input type="text" class="form-control border border-dark" id="card-number" style="width: 50%">
                 </div>
 
                 <div class="row mb-5">
                     <div class="col">
-                        <input type="text" class="form-control" placeholder="First name">
+                        <label for="expiration-date">Expiration Date</label>
+                        <input type="text" class="form-control border border-dark" id="expiration-date">
                     </div>
                     <div class="col">
-                        <input type="text" class="form-control" placeholder="Last name">
+                        <label for="security-code">Security Code</label>
+                        <input type="text" class="form-control border border-dark" id="security-code">
                     </div>
+
+                    <!-- Placeholders to create space -->
+                    <div class="col"></div>
+                    <div class="col"></div>
+
                 </div>
 
-                <button class="btn btn-info">Check Out</button>
-
             </form>
+
+            <div class="row text-center">
+                <button id="check-out-button" class="btn btn-info mx-auto">Check Out</button>
+            </div>
 
         </div>
 

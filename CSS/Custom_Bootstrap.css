@@ -43,6 +43,7 @@ html {
   background-color: #273F6C
 }
 
+
 /* Font Groups */
 #h1 {
   font-family: 'Nunito', sans-serif;
@@ -318,3 +319,17 @@ border-radius: 0.9375rem;
 
 
 /* Check-out Page Styles */
+
+
+#check-out-button {
+  background: linear-gradient(90deg, #273F6C 0%, #D8602C 100%);
+border-radius: 1.375rem;
+width: 15rem;
+height: 4rem
+}
+
+#cart-grad {
+  background: linear-gradient(90deg, #4861B0 0%, #D8602D 100%);
+  box-shadow: 0px 0.25rem 0.25rem rgba(0, 0, 0, 0.25);
+  border-radius: 0.9375rem;
+  }
