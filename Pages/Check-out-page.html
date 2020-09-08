@@ -24,29 +24,29 @@
 
 
     <!-- Main Container -->
-    <div id="bg-blue" class="container-fluid">
+    <div id="bg-blue" class="container-fluid py-5">
 
         <!-- Head Logo Section & Image -->
-        <div class="row py-3 pl-3 mb-5">
+        <div class="row pl-3 mb-5">
             <img src="../Images\HSM_Logo_white.png" alt="" loading="lazy" style="width: 15rem; height: auto" />
         </div>
 
         <!-- Cart Total Section -->
-        <div id="cart-grad" class="col-8 mx-auto">
+        <div id="cart-grad" class="col col-sm-11 col-md-11 col-lg-8 mx-auto">
 
             <!-- Items -->
             <div class="row text-white border border-light border-top-0 border-left-0 border-right-0 py-5">
 
-                <div class="col-8 my-auto mx-auto">
+                <div class="col-6 col-sm-8 my-auto mx-auto">
                     <p id="poppinsMed" class="mb-0">Proprietary Branding Development Course</p>
                 </div>
 
-                <div id="poppins-checkOut" class="col text-center">
+                <div id="poppins-checkOut" class="col-3 col-sm text-center my-auto">
                     <p class="mb-0">Amount</p>
                     <p class="mb-0">1</p>
                 </div>
 
-                <div id="poppins-checkOut" class="col text-center">
+                <div id="poppins-checkOut" class="col-3 col-sm text-center my-auto">
                     <p class="mb-0">Price</p>
                     <p class="mb-0">$999.97</p>
                 </div>
@@ -55,14 +55,14 @@
 
             <!-- Total -->
             <div id="poppins-checkOut-big" class="row text-white py-4">
-                <div class="col-8">
+                <div class="col-6 col-sm-8">
                 </div>
 
-                <div class="col text-center">
+                <div class="col col-sm text-center">
                     <p class="mb-0">Total</p>
                 </div>
 
-                <div class="col text-center">
+                <div class="col col-sm text-center">
                     <p class="mb-0">$999.97</p>
                 </div>
             </div>
@@ -73,33 +73,51 @@
 
 
         <!-- Check-Out Form Section -->
-        <div class="col-10 mx-auto py-5 bg-light" style="border-radius: 0.9375rem;">
+        <div class="col col-sm-11 col-md col-lg-9 mx-auto py-5 bg-light" style="border-radius: 0.9375rem;">
 
             <!-- Form -->
             <form class="ml-5">
 
                 <!-- Form Section Heading -->
                 <div class="row mb-5">
-                    <p class="ml-3">Check Out</p>
+                    <p id="poppins" class="ml-3">Check Out</p>
                 </div>
 
                 <!-- Contact Information -->
 
                 <div class="row mb-2">
-                    <p class="ml-3">Contact Information:</p>
+                    <p id="poppins-checkOut-big" class="ml-3 font-weight-bold">Contact Information:</p>
                 </div>
 
-                <div class="form-group">
+                <!-- Only Displays on xs -->
+                <div id="poppins-checkOut-reg" class="form-group d-sm-none">
+                    <label for="name">Name</label>
+                    <input type="text" class="form-control border border-dark" id="name" style="width: 91%">
+                </div>
+                <!-- Only Displays on sm - xl -->
+                <div id="poppins-checkOut-reg" class="form-group d-none d-sm-block">
                     <label for="name">Name</label>
                     <input type="text" class="form-control border border-dark" id="name" style="width: 80%">
                 </div>
 
-                <div class="form-group">
+                <!-- Only Displays on xs -->
+                <div id="poppins-checkOut-reg" class="form-group d-sm-none">
+                    <label for="email">Email Address</label>
+                    <input type="email" class="form-control border border-dark" id="email" style="width: 91%">
+                </div>
+                <!-- Only Displays on sm - xl -->
+                <div id="poppins-checkOut-reg" class="form-group d-none d-sm-block">
                     <label for="email">Email Address</label>
                     <input type="email" class="form-control border border-dark" id="email" style="width: 80%">
                 </div>
 
-                <div class="form-group mb-5">
+                <!-- Only Displays on xs -->
+                <div id="poppins-checkOut-reg" class="form-group mb-5 d-sm-none">
+                    <label for="phone-number">Phone Number</label>
+                    <input type="text" class="form-control border border-dark" id="phone-number" style="width: 91%">
+                </div>
+                <!-- Only Displays on sm - xl -->
+                <div id="poppins-checkOut-reg" class="form-group mb-5 d-none d-sm-block">
                     <label for="phone-number">Phone Number</label>
                     <input type="text" class="form-control border border-dark" id="phone-number" style="width: 80%">
                 </div>
@@ -107,29 +125,35 @@
                 <!-- Billing Details -->
 
                 <div class="row mb-2">
-                    <p class="ml-3">Billing Details:</p>
+                    <p id="poppins-checkOut-big" class="ml-3 font-weight-bold">Billing Details:</p>
                 </div>
 
-                <div class="form-group">
+                <div id="poppins-checkOut-reg" class="form-group">
                     <label for="address">Address</label>
-                    <input type="text" class="form-control border border-dark" id="address" style="width: 80%">
+                    <!-- Only Displays on xs -->
+                    <input type="text" class="form-control border border-dark d-sm-none" id="address" style="width: 91%">
+                    <!-- Only Displays on sm - xl -->
+                    <input type="text" class="form-control border border-dark d-none d-sm-block" id="address" style="width: 80%">
                 </div>
 
-                <div class="form-group">
+                <div id="poppins-checkOut-reg" class="form-group">
                     <label for="second-address">Second Address</label>
-                    <input type="text" class="form-control border border-dark" id="second-address" style="width: 80%">
+                    <!-- Only Displays on xs -->
+                    <input type="text" class="form-control border border-dark d-sm-none" id="second-address" style="width: 91%">
+                    <!-- Only Displays on sm - xl -->
+                    <input type="text" class="form-control border border-dark d-none d-sm-block" id="second-address" style="width: 80%">
                 </div>
-
-                <div class="row mb-5">
-                    <div class="col">
+                <!-- State, Zip and Country Fields -->
+                <div id="poppins-checkOut-reg" class="row mb-5">
+                    <div class="col-3 col-sm">
                         <label for="state">State</label>
                         <input type="text" class="form-control border border-dark" id="state">
                     </div>
-                    <div class="col">
+                    <div class="col-3 col-sm">
                         <label for="zip-code">ZIP Code</label>
                         <input type="text" class="form-control border border-dark" id="zip-code">
                     </div>
-                    <div class="col">
+                    <div class="col-5 col-sm">
                         <label for="country">Country</label>
                         <input type="text" class="form-control border border-dark" id="country">
                     </div>
@@ -138,35 +162,56 @@
                 </div>
 
                 <!-- Payment Information -->
-
                 <div class="row mb-2">
-                    <p class="ml-3">Payment Information:</p>
+                    <p id="poppins-checkOut-big" class="ml-3 font-weight-bold">Payment Information:</p>
                 </div>
 
                 <!-- Credit Card Select -->
-                <div class="form-check mb-5">
-                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-                    <label class="form-check-label bg-info" for="defaultCheck1">
+
+                <!-- Only Display on xs -->
+                <div id="poppins-checkOut-reg" class="form-check d-sm-none mb-5 bg-info py-2 text-white font-weight-bold" style="width: 120px; border-radius: 0.500rem">
+                    <input class="form-check-input ml-1" type="checkbox" value="" id="defaultCheck1">
+                    <label class="form-check-label ml-4" for="defaultCheck1">
                         Credit Card
                     </label>
                 </div>
 
-                <div class="form-group">
+                <!-- Only Display on sm - xl -->
+                <div id="poppins-checkOut-reg" class="form-check d-none d-sm-block mb-5 bg-info py-2 text-white font-weight-bold" style="width: 160px; border-radius: 0.500rem">
+                    <input class="form-check-input ml-1" type="checkbox" value="" id="defaultCheck1">
+                    <label class="form-check-label ml-4" for="defaultCheck1">
+                        Credit Card
+                    </label>
+                </div>
+
+                <!-- Only Display on xs - sm -->
+                <div id="poppins-checkOut-reg" class="form-group d-md-none">
+                    <label for="name-on-card">Name On the Card</label>
+                    <input type="text" class="form-control border border-dark" id="name-on-card" style="width: 91%">
+                </div>
+                <!-- Only Display on md - xl -->
+                <div id="poppins-checkOut-reg" class="form-group d-none d-md-block">
                     <label for="name-on-card">Name On the Card</label>
                     <input type="text" class="form-control border border-dark" id="name-on-card" style="width: 50%">
                 </div>
 
-                <div class="form-group">
+                <!-- Only Display on xs - sm -->
+                <div id="poppins-checkOut-reg" class="form-group d-md-none">
+                    <label for="card-number">Card Number</label>
+                    <input type="text" class="form-control border border-dark" id="card-number" style="width: 91%">
+                </div>
+                <!-- Only Display on md - xl -->
+                <div id="poppins-checkOut-reg" class="form-group d-none d-md-block">
                     <label for="card-number">Card Number</label>
                     <input type="text" class="form-control border border-dark" id="card-number" style="width: 50%">
                 </div>
 
-                <div class="row mb-5">
-                    <div class="col">
+                <div id="poppins-checkOut-reg" class="row mb-5">
+                    <div class="col-5 col-md">
                         <label for="expiration-date">Expiration Date</label>
                         <input type="text" class="form-control border border-dark" id="expiration-date">
                     </div>
-                    <div class="col">
+                    <div class="col-5 col-md">
                         <label for="security-code">Security Code</label>
                         <input type="text" class="form-control border border-dark" id="security-code">
                     </div>
