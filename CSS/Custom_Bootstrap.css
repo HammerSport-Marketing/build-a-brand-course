@@ -1,32 +1,34 @@
-
-
 /* Root Font Sizes */
 html {
-        font-size: 16px;
-    }
+  font-size: 16px;
+}
 
 
 @media screen and (min-width: 320px) {
-html {
-  font-size: 11px;
-}
+  html {
+    font-size: 11px;
+  }
 
 }
+
 @media screen and (min-width: 576px) {
   html {
     font-size: 12px;
   }
 }
+
 @media screen and (min-width: 768px) {
   html {
     font-size: 14px;
   }
 }
+
 @media screen and (min-width: 992px) {
   html {
     font-size: 16px;
   }
 }
+
 @media screen and (min-width: 1200px) {
   html {
     font-size: 16px;
@@ -58,19 +60,19 @@ html {
   font-size: 1.340rem;
 }
 
-#p-small {
+#p-xxs {
   font-family: 'Nunito', sans-serif;
-  font-size: 0.9rem;
-}
-
-#p-small {
-  font-family: 'Nunito', sans-serif;
-  font-size: 0.875rem;
+  font-size: 0.625rem;
 }
 
 #p-xs {
   font-family: 'Nunito', sans-serif;
   font-size: 0.75rem;
+}
+
+#p-small {
+  font-family: 'Nunito', sans-serif;
+  font-size: 0.9rem;
 }
 
 #p-reg {
@@ -111,7 +113,7 @@ html {
 #poppins-big {
   font-family: 'Poppins', sans-serif;
   font-weight: bold;
-  font-size:  2.25rem;
+  font-size: 2.25rem;
 }
 
 
@@ -201,8 +203,8 @@ html {
   background: -o-linear-gradient(right, #1234A8, #D8602D);
   background: -moz-linear-gradient(right, #1234A8, #D8602D);
   background: linear-gradient(to right, #1234A8, #D8602D);
- -webkit-background-clip: text;
- -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   text-shadow: 0px 0.25rem 0.25rem rgba(0, 0, 0, 0.25);
 }
 
@@ -236,14 +238,14 @@ html {
 #price-blue {
   font-family: 'Poppins', sans-serif;
   font-weight: bold;
-  font-size:  3rem;
+  font-size: 3rem;
   color: #273F6C;
 }
 
 #price-orange {
   font-family: 'Poppins', sans-serif;
   font-weight: bold;
-  font-size:  3rem;
+  font-size: 3rem;
   color: #D8602C;
 }
 
@@ -274,12 +276,12 @@ html {
 }
 
 #form-grad {
-background: linear-gradient(90deg, #4861B0 0%, #D8602D 100%);
-box-shadow: 0px 0.25rem 0.25rem rgba(0, 0, 0, 0.25);
-border-radius: 0.9375rem;
+  background: linear-gradient(90deg, #4861B0 0%, #D8602D 100%);
+  box-shadow: 0px 0.25rem 0.25rem rgba(0, 0, 0, 0.25);
+  border-radius: 0.9375rem;
 }
 
-#input{
+#input {
   background-color: white;
   border-radius: 0.125rem;
   color: white;
@@ -314,32 +316,52 @@ border-radius: 0.9375rem;
 
 #check-out-button {
   background: linear-gradient(90deg, #273F6C 0%, #D8602C 100%);
-border-radius: 1.375rem;
-width: 15rem;
-height: 4rem;
-font-family: 'Poppins', sans-serif;
-font-weight: bold;
-font-size: 1.2rem;
+  border-radius: 1.375rem;
+  width: 15rem;
+  height: 4rem;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  font-size: 1.2rem;
 }
 
 #cart-grad {
   background: linear-gradient(90deg, #4861B0 0%, #D8602D 100%);
   box-shadow: 0px 0.25rem 0.25rem rgba(0, 0, 0, 0.25);
   border-radius: 0.9375rem;
-  }
+}
 
-  #poppins-checkOut {
-    font-family: 'Poppins', sans-serif;
-    font-weight: bold;
-    font-size:  0.6875rem;
-  }
+#poppins-checkOut {
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  font-size: 0.6875rem;
+}
 
-  #poppins-checkOut-reg {
-    font-family: 'Poppins', sans-serif;
-    font-size:  0.875rem;
-  }
-  
-  #poppins-checkOut-big {
-    font-family: 'Poppins', sans-serif;
-    font-size: 1.125rem;
-  }
+#poppins-checkOut-reg {
+  font-family: 'Poppins', sans-serif;
+  font-size: 0.875rem;
+}
+
+#poppins-checkOut-big {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.125rem;
+}
+
+
+/* Thank You Page */
+
+#share-button {
+  color: white;
+  background: #273F6C;
+  border-radius: 22px;
+
+  font-family: Nunito;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+
+#footer-grad {
+  background: linear-gradient(90deg, #4861B0 0%, #D8602D 100%);
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
