@@ -38,79 +38,80 @@ html {
 /* General/Brand Styles */
 
 /* Colors */
-#dark-blue {
+.dark-blue {
   color: #273F6C;
 }
 
-#bg-blue {
+.bg-blue {
   background-color: #273F6C
 }
 
 
 /* Font Groups */
-#h1 {
-  font-family: 'Nunito', sans-serif;
-  font-weight: bold;
-  font-size: 1.5rem;
-}
 
-#h1-small {
+/*#h1-small*/ .nunito__head--small {
   font-family: 'Nunito', sans-serif;
   font-weight: bold;
   font-size: 1.340rem;
 }
 
-#p-xxs {
+/*#h1*/ .nunito__head--reg {
+  font-family: 'Nunito', sans-serif;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+/*#p-xxs*/ .nunito__xxs {
   font-family: 'Nunito', sans-serif;
   font-size: 0.625rem;
 }
 
-#p-xs {
+/*#p-xs*/ .nunito__xs {
   font-family: 'Nunito', sans-serif;
   font-size: 0.75rem;
 }
 
-#p-small {
+/* #p-small */ .nunito__small {
   font-family: 'Nunito', sans-serif;
   font-size: 0.9rem;
 }
 
-#p-reg {
+/*.p-reg*/ .nunito__reg {
   font-family: 'Nunito', sans-serif;
   font-size: 1.125rem;
 }
 
-#p-big {
+/*#p-big*/ .nunito__lg {
   font-family: 'Nunito', sans-serif;
   font-size: 1.5rem;
   font-weight: bold;
 }
 
-#poppins-small {
-  font-family: 'Poppins', sans-serif;
-  font-weight: bold;
-  font-size: 0.9rem;
-}
-
-#poppins {
-  font-family: 'Poppins', sans-serif;
-  font-weight: bold;
-  font-size: 1.5rem;
-}
-
-#poppinsMed {
-  font-family: 'Poppins', sans-serif;
-  font-weight: bold;
-  font-size: 1.125rem;
-}
-
-#poppinsXs {
+.poppins__xs {
   font-family: 'Poppins', sans-serif;
   font-weight: bold;
   font-size: 1.08rem;
 }
 
-#poppins-big {
+.poppins__small {
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  font-size: 0.9rem;
+}
+
+.poppins__reg {
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.poppins__lg {
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  font-size: 1.125rem;
+}
+
+.poppins__xl {
   font-family: 'Poppins', sans-serif;
   font-weight: bold;
   font-size: 2.25rem;
@@ -135,7 +136,7 @@ html {
 
 /* Head Section Nav*/
 
-#buy-now-button {
+.buy-now-button {
   font-family: 'Poppins', sans-serif;
   font-weight: bold;
   font-size: 1.125rem;
@@ -145,7 +146,7 @@ html {
 
 /* Hello Friends Section*/
 
-#grad-box {
+.grad-box {
   background: linear-gradient(90deg, #4861B1 0%, #D8602C 100%);
   border-radius: 0.6875rem;
   width: 90%;
@@ -153,7 +154,7 @@ html {
 
 /* Castle Section*/
 
-#background-orange {
+.background-orange {
   font-family: 'Nunito', sans-serif;
   font-weight: bold;
   font-size: 1.5rem;
@@ -164,7 +165,7 @@ html {
   border-radius: 0.0625rem;
 }
 
-#background-orange-small {
+.background-orange-small {
   font-family: 'Nunito', sans-serif;
   font-weight: bold;
   font-size: 1.340rem;
@@ -175,14 +176,14 @@ html {
   border-radius: 0.0625rem;
 }
 
-#custom-border-left {
+.custom-border-left {
   border-left: solid white 10px;
   border-radius: 0;
 }
 
 /* Proprietary BP Section*/
 
-#background-blue {
+.light-blue-boxes {
   width: 100%;
   padding-bottom: 0.625rem;
   background: rgba(2, 99, 255, 0.15);
@@ -194,7 +195,7 @@ html {
 
 /* Proprietary BDP Section*/
 
-#grad-head {
+.grad-head {
   font-family: 'Nunito', sans-serif;
   font-weight: bold;
   font-size: 1.5rem;
@@ -210,7 +211,7 @@ html {
 
 /* Frame 5 Section (Dark Blue Boxes)*/
 
-#dark-blue-box {
+.dark-blue-box {
   width: 13.0625rem;
   height: 8rem;
   background-color: #273F6C;
@@ -222,7 +223,7 @@ html {
   color: white;
 }
 
-#dark-blue-box-col {
+.dark-blue-box-col {
   background-color: #273F6C;
   border-radius: 0.9375rem;
 
@@ -235,14 +236,14 @@ html {
 
 /* Official Price Section*/
 
-#price-blue {
+.price-blue {
   font-family: 'Poppins', sans-serif;
   font-weight: bold;
   font-size: 3rem;
   color: #273F6C;
 }
 
-#price-orange {
+.price-orange {
   font-family: 'Poppins', sans-serif;
   font-weight: bold;
   font-size: 3rem;
@@ -251,7 +252,7 @@ html {
 
 /* Get Started Section*/
 
-#get-started-btn {
+.get-started-btn {
   width: 22.4375rem;
   height: 4.0625rem;
   background-color: #D8602C;
