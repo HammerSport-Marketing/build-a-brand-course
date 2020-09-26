@@ -350,7 +350,7 @@ html {
 
 /* Thank You Page */
 
-#share-button {
+.share-button {
   color: white;
   background: #273F6C;
   border-radius: 22px;
@@ -361,7 +361,7 @@ html {
 }
 
 
-#footer-grad {
+.footer-grad {
   background: linear-gradient(90deg, #4861B0 0%, #D8602D 100%);
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
