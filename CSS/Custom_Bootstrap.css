@@ -1,3 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+  box-sizing: border-box;
+}
+
+
 /* Root Font Sizes */
 html {
   font-size: 16px;
@@ -348,21 +360,57 @@ html {
 }
 
 
+
+
+
+
+
+
 /* Thank You Page */
 
-.share-button {
-  color: white;
-  background: #273F6C;
-  border-radius: 22px;
-
-  font-family: Nunito;
-  font-weight: bold;
-  font-size: 18px;
+.share-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 
-.footer-grad {
+.share__button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background: #273F6C;
+  border-radius: 2rem;
+  width: 60%;
+  height: 4.2rem;
+  text-align: center;
+
+  font-family: Nunito;
+  font-weight: bold;
+  font-size: 1.125rem;
+}
+
+
+.thank-you-page-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 7.4375rem;
   background: linear-gradient(90deg, #4861B0 0%, #D8602D 100%);
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
+}
+
+.thank-you-page-footer__info {
+ text-align: center;
+ width: 100%;
+}
+
+.thank-you-page-footer__images {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 70%;
 }
