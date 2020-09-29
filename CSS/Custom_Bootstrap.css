@@ -15,7 +15,7 @@ html {
   font-size: 16px;
 }
 
-
+/*
 @media screen and (min-width: 320px) {
   html {
     font-size: 11px;
@@ -46,6 +46,7 @@ html {
     font-size: 16px;
   }
 }
+*/
 
 /* General/Brand Styles */
 
@@ -61,39 +62,39 @@ html {
 
 /* Font Groups */
 
-/*#h1-small*/ .nunito__head--small {
+.nunito__head--small {
   font-family: 'Nunito', sans-serif;
   font-weight: bold;
   font-size: 1.340rem;
 }
 
-/*#h1*/ .nunito__head--reg {
+.nunito__head--reg {
   font-family: 'Nunito', sans-serif;
   font-weight: bold;
   font-size: 1.5rem;
 }
 
-/*#p-xxs*/ .nunito__xxs {
+.nunito__xxs {
   font-family: 'Nunito', sans-serif;
   font-size: 0.625rem;
 }
 
-/*#p-xs*/ .nunito__xs {
+.nunito__xs {
   font-family: 'Nunito', sans-serif;
-  font-size: 0.75rem;
+  font-size: 0.875rem;
 }
 
-/* #p-small */ .nunito__small {
+.nunito__small {
   font-family: 'Nunito', sans-serif;
   font-size: 0.9rem;
 }
 
-/*.p-reg*/ .nunito__reg {
+.nunito__reg {
   font-family: 'Nunito', sans-serif;
   font-size: 1.125rem;
 }
 
-/*#p-big*/ .nunito__lg {
+.nunito__lg {
   font-family: 'Nunito', sans-serif;
   font-size: 1.5rem;
   font-weight: bold;
@@ -382,8 +383,8 @@ html {
   color: white;
   background: #273F6C;
   border-radius: 2rem;
-  width: 60%;
-  height: 4.2rem;
+  width: 70%;
+  height: 3.5rem;
   text-align: center;
 
   font-family: Nunito;
@@ -399,13 +400,15 @@ html {
   flex-wrap: wrap;
   height: 7.4375rem;
   background: linear-gradient(90deg, #4861B0 0%, #D8602D 100%);
-  border-top-left-radius: 15px;
-  border-top-right-radius: 15px;
+  border-top-left-radius: 0.9375rem;
+  border-top-right-radius: 0.9375rem;
 }
 
 .thank-you-page-footer__info {
  text-align: center;
+ font-weight: bold;
  width: 100%;
+ color: white;
 }
 
 .thank-you-page-footer__images {
