@@ -1,0 +1,182 @@
+header {
+    text-align: center;
+}
+
+
+header img {
+    width: 15rem;
+    height: auto;
+}
+
+
+.welcome-text {
+    text-align: center;
+    margin: 0rem 0 3rem 0;
+}
+
+
+.banner {
+    margin: 0 0 0 0;
+}
+
+.banner img {
+    width: 100%;
+}
+
+
+.co-founder-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 51.3125rem;
+    margin: 3rem auto 3rem auto;
+}
+
+.co-founder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 22.625rem;
+    margin: 0rem auto 0rem auto;
+}
+
+.co-founder:nth-of-type(1) {
+    margin-bottom: 3rem;
+}
+
+.co-founder__img {
+    margin: 0 1rem 0 1rem;
+}
+
+.co-founder__img img {
+    width: 6rem;
+    height: auto;
+    border-radius: 0.9rem;
+}
+
+.co-founder__info p {
+    margin: 0;
+}
+
+
+.list-section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 1.5rem 0 1.5rem 0;
+    background-color: #D8602C;
+}
+
+
+.list__head {
+    width: 90%;
+    max-width: 21.9375rem;
+    margin: 0 0 1rem 1rem;
+}
+
+
+.list__container {
+    width: 90%;
+    margin: 0 0 0 2.5rem;
+}
+
+.list {
+    margin: 0;
+}
+
+
+.list__item {
+    padding: 0.3rem 0 0.3rem 0;
+}
+
+.list__item:nth-of-type(5) {
+    padding-bottom: 0;
+}
+
+
+.info-section {
+    text-align: center;
+    margin: 3rem 0 3rem 0;
+}
+
+.info-section__para {
+    max-width: 24.375rem;
+    margin: 0 auto 1rem auto;
+}
+
+.info-section__para:nth-of-type(6) {
+    margin-bottom: 0;
+}
+
+
+.audit-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0 3rem 0;
+}
+
+.audit-section p {
+    margin: 0 0 0 0;
+}
+
+.audit-section button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        background: #273F6C;
+        border-radius: 2rem;
+        width: 100%;
+        max-width: 14.625rem;
+        height: 3.5rem;
+        margin: 1rem 0 1rem 0;
+        font-family: Nunito;
+        font-weight: bold;
+        font-size: 1.125rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Media Q's */
+
+@media (min-width: 48rem) {
+
+    .co-founder-container {
+        flex-direction: row;
+        margin: 3rem auto 3rem auto;
+        max-width: 60rem;
+    }
+
+    .co-founder {
+        max-width: 30rem;
+    }
+
+    .co-founder:nth-of-type(1) {
+        margin: 0 1rem 0 0;
+    }
+
+    .co-founder__img img {
+        width: 8rem;
+        height: auto;
+        border-radius: 0.9rem;
+    }
+
+    .co-founder__info p {
+        font-size: 0.8rem;
+    }
+
+}
