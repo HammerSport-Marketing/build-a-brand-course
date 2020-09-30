@@ -29,6 +29,15 @@ html {
   background-color: #273F6C
 }
 
+.gradient-text {
+  background: -webkit-linear-gradient(left, #273F6C ,#D8602C);
+  background: -o-linear-gradient(right, #273F6C ,#D8602C);
+  background: -moz-linear-gradient(right, #273F6C ,#D8602C);
+  background: linear-gradient(to right, #273F6C ,#D8602C); 
+ -webkit-background-clip: text;
+ -webkit-text-fill-color: transparent;
+}
+
 
 /* Font Groups */
 
