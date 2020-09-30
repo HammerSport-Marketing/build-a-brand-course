@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  vertical-align: baseline;
+  background: transparent;
+  box-sizing: border-box;
+}
+
+
+/* Root Font Sizes */
+html {
+  font-size: 16px;
+  height: 100%;
+  overflow-x: hidden;
+}
+
+
+
+/* General/Brand Styles */
+
+/* Colors */
+.dark-blue {
+  color: #273F6C;
+}
+
+.bg-blue {
+  background-color: #273F6C
+}
+
+
+/* Font Groups */
+
+.nunito__head--small {
+  font-family: 'Nunito', sans-serif;
+  font-weight: bold;
+  font-size: 1.340rem;
+}
+
+.nunito__head--reg {
+  font-family: 'Nunito', sans-serif;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.nunito__xxs {
+  font-family: 'Nunito', sans-serif;
+  font-size: 0.625rem;
+}
+
+.nunito__xs {
+  font-family: 'Nunito', sans-serif;
+  font-size: 0.875rem;
+}
+
+.nunito__small {
+  font-family: 'Nunito', sans-serif;
+  font-size: 0.9rem;
+}
+
+.nunito__reg {
+  font-family: 'Nunito', sans-serif;
+  font-size: 1.125rem;
+}
+
+.nunito__lg {
+  font-family: 'Nunito', sans-serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.poppins__xs {
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  font-size: 1.08rem;
+}
+
+.poppins__small {
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  font-size: 0.9rem;
+}
+
+.poppins__reg {
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.poppins__lg {
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  font-size: 1.125rem;
+}
+
+.poppins__xl {
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  font-size: 2.25rem;
+}
+

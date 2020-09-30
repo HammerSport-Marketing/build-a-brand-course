@@ -1,0 +1,76 @@
+
+.head-background-img {
+  background-image: url("../Images/reg-head.png");
+  background-size: 100% 100%;
+}
+
+.form-grad {
+  background: linear-gradient(90deg, #4861B0 0%, #D8602D 100%);
+  box-shadow: 0px 0.25rem 0.25rem rgba(0, 0, 0, 0.25);
+  border-radius: 0.9375rem;
+}
+
+.input {
+  background-color: white;
+  border-radius: 0.125rem;
+  color: white;
+}
+
+.form-control::-webkit-input-placeholder {
+  color: #D8602D;
+  font-weight: bold;
+  font-family: 'Nunito', sans-serif;
+  font-size: 1.125rem;
+}
+
+.submit-button {
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 0.75rem;
+  color: #D8602D;
+  background-color: white;
+
+  width: 7.5rem;
+  height: 2rem;
+  border: solid #D8602C 1px;
+  border-radius: 2.90625rem;
+}
+
+
+
+
+/* Check-out Page Styles */
+
+
+#check-out-button {
+  background: linear-gradient(90deg, #273F6C 0%, #D8602C 100%);
+  border-radius: 1.375rem;
+  width: 15rem;
+  height: 4rem;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+#cart-grad {
+  background: linear-gradient(90deg, #4861B0 0%, #D8602D 100%);
+  box-shadow: 0px 0.25rem 0.25rem rgba(0, 0, 0, 0.25);
+  border-radius: 0.9375rem;
+}
+
+#poppins-checkOut {
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  font-size: 0.6875rem;
+}
+
+#poppins-checkOut-reg {
+  font-family: 'Poppins', sans-serif;
+  font-size: 0.875rem;
+}
+
+#poppins-checkOut-big {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.125rem;
+}
