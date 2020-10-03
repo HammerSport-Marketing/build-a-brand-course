@@ -16,8 +16,7 @@
 
 ---
 
-<p align="center"> A really quick framework for building ecom stores.
-Like really fast.
+<p align="center"> A really quick framework for building ecom stores. Like really fast.
     <br> 
 </p>
 
