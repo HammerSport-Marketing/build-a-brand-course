@@ -33,6 +33,9 @@ section,
 summary {
   display: block;
 }
+main {
+  max-width: 640px;
+}
 audio,
 canvas,
 progress,

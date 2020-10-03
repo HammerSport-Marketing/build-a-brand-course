@@ -15,7 +15,7 @@
     "description": {
       "type": "richtext"
     },
-    "price_in_cent": {
+    "price_in_cents": {
       "type": "biginteger"
     },
     "thumbnail": {
@@ -28,10 +28,6 @@
       ],
       "plugin": "upload",
       "required": false
-    },
-    "orders": {
-      "via": "products",
-      "collection": "order"
     }
   }
 }
