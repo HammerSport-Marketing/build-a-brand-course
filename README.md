@@ -2,7 +2,8 @@
   <a href="" rel="noopener">
  <img width=200px height=200px src="https://i.imgur.com/A6Sqw5O.jpg" alt="Project logo"></a>
 
-<h3 align="center">Project Title</h3>
+<h3 align="center">Quick Ecom Store</h3>
+<h4 align="center">Proudly Open Sourced By: <a href="https://hammersportmarketing.com">HammerSport Marketing</h4>
 
 <div align="center">
 
