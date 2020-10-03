@@ -56,6 +56,7 @@ header img {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
 }
 
 
@@ -87,9 +88,9 @@ header img {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
   width: 100%;
-  margin: 3rem auto 3rem auto;
+  max-width: 31.1875rem;
+  margin: 3rem auto 2rem auto;
 }
 
 
@@ -97,17 +98,17 @@ header img {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
   width: 100%;
-  max-width: 22.625rem;
-  margin: 2rem auto 4rem auto;
+  margin: 0rem auto 0rem auto;
 }
 
 .co-founder:nth-of-type(1) {
-  margin-bottom: 3rem;
+  margin-bottom: 0rem;
 }
 
 .co-founder__img {
-  margin: 0 1rem 0 1rem;
+  margin: 0 0 1rem 0;
 }
 
 .co-founder__img img {
@@ -119,88 +120,19 @@ header img {
 .co-founder__info {}
 
 .co-founder__info p {
+  text-align: center;
   margin: 0;
 }
 
 
-
-@media (min-width: 48rem) {
-
-  .co-founder-container {
-    flex-direction: row;
-    margin: 3rem auto 3rem auto;
-    padding: 0 0.5rem 0 0.5rem;
-  }
+.body__right {}
 
 
-  .co-founder {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    max-width: 32rem;
-    margin: 0 0 0 0;
-
-  }
-
-
-
-  .co-founder:nth-of-type(1) {
-    margin: 0 1.5rem 0 0;
-  }
-
-
-  .co-founder__img {
-    margin: 0 0.5rem 0 0rem;
-  }
-
-
-  .co-founder__img img {
-    width: 8rem;
-  }
-
-
-  .co-founder__info p {
-    font-size: 0.8rem;
-    text-align: justify;
-    margin: auto 0 auto 0rem;
-  }
-
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.form-grad {
+form {
   background: linear-gradient(90deg, #4861B0 0%, #D8602D 100%);
   box-shadow: 0px 0.25rem 0.25rem rgba(0, 0, 0, 0.25);
-  border-radius: 0.9375rem;
+  /* border-radius: 0.9375rem; */
+  padding: 1rem 1rem 1rem 1rem;
 }
 
 .input {
@@ -228,4 +160,38 @@ header img {
   height: 2rem;
   border: solid #D8602C 1px;
   border-radius: 2.90625rem;
+}
+
+
+
+@media (min-width: 48rem) {
+
+  .body {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 1rem 1rem 1rem 0;
+  }
+
+
+  .body__left {
+    width: 60%;
+  }
+
+
+  .body__right {
+    width: 40%;
+  }
+
+
+  .co-founder-container {
+    max-width: 28.24275rem;
+  }
+
+
+  form {
+    width: 100%;
+    max-width: 20.625rem;
+    border-radius: 1.1rem;
+  }
 }
