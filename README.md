@@ -96,14 +96,14 @@ Add additional notes about how to deploy this on a live system.
 
 ## ⛏️ Built Using <a name = "built_using"></a>
 
-- [MongoDB](https://www.mongodb.com/) - Database
-- [Express](https://expressjs.com/) - Server Framework
-- [VueJs](https://vuejs.org/) - Web Framework
+- [SQLite](https://www.sqlite.org/) - Database
+- [StrapiJS](https://strapi.io/) - Server Environment
+- [Gatsby](https://gatsbyjs.com/) - Web Framework
 - [NodeJs](https://nodejs.org/en/) - Server Environment
 
 ## ✍️ Authors <a name = "authors"></a>
 
-- [@kylelobo](https://github.com/kylelobo) - Idea & Initial work
+- [@rileyseaburg](https://github.com/rileyseaburg) - Idea & Initial work
 
 See also the list of [contributors](https://github.com/RileySeaburg/quick-ecom-store/contributors) who participated in this project.
 
