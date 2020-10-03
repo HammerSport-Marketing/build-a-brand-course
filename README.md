@@ -39,8 +39,8 @@ Not another ecom frame work right?
 <p>This framework you might just want to use. </p>
 <p>It took a long time to find a solution that worked for me as well it does for other people.</p>
 <p>The architecture of this project is what makes it unique.</p>
-<p>Right now it uses SQLite for effeciencey sake but because the backend it written in StrapiJS and can be readily converted to any other database of your choosing. </p>
-<p>This framework is everything you need to start selling your product today.</p>
+<p>Uses SQLite for effeciencey sake but because the backend is written in StrapiJS, it can be readily converted to any other database of your choosing.</p>
+<h5>This framework is everything you need to start selling your product today.</h5>
 
 ## 🏁 Getting Started <a name = "getting_started"></a>
 
