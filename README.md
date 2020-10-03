@@ -16,7 +16,8 @@
 
 ---
 
-<p align="center"> Few lines describing your project.
+<p align="center"> A really quick framework for building ecom stores.
+Like really fast.
     <br> 
 </p>
 
