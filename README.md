@@ -40,7 +40,7 @@ Not another ecom frame work right?
 <p>It took a long time to find a solution that worked for me as well it does for other people.</p>
 <p>The architecture of this project is what makes it unique.</p>
 <p>Uses SQLite for effeciencey sake but because the backend is written in StrapiJS, it can be readily converted to any other database of your choosing.</p>
-<h5>This framework is everything you need to start selling your product today.</h5>
+<h5 >This framework is everything you need to start selling your product today.</h5>
 
 ## 🏁 Getting Started <a name = "getting_started"></a>
 
@@ -48,10 +48,10 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-What things you need to install the software and how to install them.
+Install NodeJS
 
 ```
-Give examples
+https://nodejs.org/en/download/
 ```
 
 ### Installing
