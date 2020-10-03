@@ -3,7 +3,7 @@
  <img width=200px height=200px src="https://i.imgur.com/A6Sqw5O.jpg" alt="Project logo"></a>
 
 <h3 align="center">Quick Ecom Store</h3>
-<h4 align="center">Proudly Open Sourced By: <a href="https://hammersportmarketing.com">HammerSport Marketing</h4>
+<h4 align="center">Proudly Open Sourced By: <a href="https://hammersportmarketing.com">HammerSport Marketing</a></h4>
 
 <div align="center">
 
@@ -108,7 +108,4 @@ Add additional notes about how to deploy this on a live system.
 See also the list of [contributors](https://github.com/RileySeaburg/quick-ecom-store/contributors) who participated in this project.
 
 ## 🎉 Acknowledgements <a name = "acknowledgement"></a>
-
-- Hat tip to anyone whose code was used
-- Inspiration
-- References
+- Inital Inspiration and Starter Code <a href="https://www.youtube.com/channel/UCMguCMq25nEqlHlr17iINNw">Alex the Entreprenerd</a>
