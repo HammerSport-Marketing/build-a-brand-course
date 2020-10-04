@@ -1,4 +1,4 @@
-export const setCart = (cart) => {
+export const saveCart = (cart) => {
     localStorage.setItem('cart', JSON.stringify(cart))
 }
 
@@ -30,5 +30,5 @@ export const addToCart = (product) => {
         // Push the product
         cart.push(product)
     }
-    setCart(cart)
+    saveCart(cart)
 }
