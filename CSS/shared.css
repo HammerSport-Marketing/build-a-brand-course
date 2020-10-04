@@ -55,6 +55,11 @@ html {
 }
 
 
+.gradient-bg {
+  background: linear-gradient(90deg, #4861B1 0%, #D8602C 100%);
+}
+
+
 /* Font Groups */
 
 .nunito__head--small {
@@ -132,17 +137,6 @@ body {
   display: flex;
   flex-direction: column;
   margin: 0;
-}
-
-
-
-main {
-  flex: 1;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  width: 100%;
-  margin: 0rem 0 0 0;
 }
 
 

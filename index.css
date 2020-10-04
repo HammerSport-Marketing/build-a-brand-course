@@ -1,14 +1,143 @@
-* {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    outline: 0;
-    font-size: 100%;
-    vertical-align: baseline;
-    background: transparent;
-    box-sizing: border-box;
-  }
+
+
+main {
+  flex: 0;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  width: 100%;
+  margin: 0;
+  padding: 0 0.5rem 0 0.5rem;
+}
+
+
+nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  height: 16rem;
+  background-image: url("../Images/Header.png");
+  background-size: cover;
+  background-position: center;
+}
+
+
+nav img {
+  position: absolute;
+  width: 10rem;
+  height: auto;
+  top: 5%;
+  left: 5%;
+}
+
+
+.nav__hamburger {
+  position: absolute;
+  top: 20%;
+  left: 5%;
+}
+
+.nav__hamburger div {
+  width: 35px;
+  height: 5px;
+  background-color: white;
+  margin: 6px 0;
+}
+
+
+.nav__para {
+  margin: 3rem 0 0 0;
+}
+
+.nav__para p:nth-of-type(1) {
+  margin: 0 0 1rem 0;
+}
+
+
+.hello-friends {
+  margin: 2rem 0 2rem 0;
+}
+
+
+.hello-friends p {
+
+}
+
+
+.hello-friends p:nth-of-type(3) {
+  margin-bottom: 0;
+}
+
+
+.hello-friends__grad-box {
+  width: 95%;
+  padding: 0.5rem;
+  margin: 0 auto 0 auto;
+  border-radius: 0.6875rem;
+}
+
+
+.hello-friends__grad-box p {
+  line-height: 1.2rem;
+}
+
+
+.castle-info {
+  margin: 2rem 0 2rem 0;
+}
+
+.castle-info p {
+  margin: 0rem 0 1rem 0;
+}
+
+
+.castle-img-list {
+
+}
+
+
+.castle__img {
+  margin: 0 0 1rem 0;
+}
+
+
+.castle__img img {
+  width: 15rem;
+  height: auto;
+}
+
+
+.castle__list {
+}
   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* Sales Page Styles */
@@ -153,3 +282,5 @@
     font-size: 1.5rem;
     color: white;
   }
+
+  

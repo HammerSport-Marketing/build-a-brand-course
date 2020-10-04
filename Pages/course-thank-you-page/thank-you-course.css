@@ -9,6 +9,16 @@ header img {
 }
 
 
+main {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    margin: 0rem 0 0 0;
+  }
+
+
 .welcome-text {
     text-align: center;
     margin: 0rem 0 3rem 0;
