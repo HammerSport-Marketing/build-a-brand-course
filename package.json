@@ -1,0 +1,42 @@
+{
+  "name": "quick-ecom-store",
+  "version": "0.0.1",
+  "description": "A very basic ecom store build with Strapi & Gatsby.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RileySeaburg/quick-ecom-store.git"
+  },
+  "keywords": [
+    "Riley",
+    "Seaburg",
+    "HammerSport",
+    "Marketing",
+    "Ecommerce",
+    "Store",
+    "Easy",
+    "Ecommerce",
+    "Quick",
+    "Ecommerce",
+    "Store",
+    "React",
+    "Ecom",
+    "Store",
+    "Strapi",
+    "Ecom",
+    "Store",
+    "NodeJS",
+    "Ecom",
+    "Store"
+  ],
+  "author": "HammerSport Marketing",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RileySeaburg/quick-ecom-store/issues"
+  },
+  "homepage": "https://github.com/RileySeaburg/quick-ecom-store#readme",
+  "publishConfig": { "registry": "https://npm.pkg.github.com/" }
+}
