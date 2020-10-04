@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
     title: `Quick Ecom Store`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    description: `This is a really quick fullstack eccommerce solution that will let you start selling today. All you have to do is install it and add a domain!`,
+    author: `@rileyseaburg`,
   },
   plugins: [
     {

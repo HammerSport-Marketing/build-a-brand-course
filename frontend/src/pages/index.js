@@ -1,9 +1,10 @@
 import React from "react"
-import { graphql } from "gatsby"
+import { graphql, Link } from "gatsby"
 import Layout from "../components/layout"
 import Img from "gatsby-image"
 import SEO from "../components/seo"
-import {formatPrice} from '../utils/format'
+import { formatPrice } from '../utils/format'
+import {fromProductSlugToUrl} from '../utils/products'
 
 const IndexPage = ({ data }) => (
   <Layout>
@@ -15,17 +16,21 @@ const IndexPage = ({ data }) => (
       gridGap: '20px'
     }}>
       {data.allStrapiProduct.nodes.map(product => (
-        <div>
+        <Link style={{
+          color: '#000000',
+          textDecoration: 'none'
+        }} 
+        to={fromProductSlugToUrl(product.slug)}
+        >
           <div>
-            <Img fixed={product.thumbnail.childImageSharp.fixed} />
+            <div>
+              <Img fixed={product.thumbnail.childImageSharp.fixed} />
+            </div>
+            <h3 style={{ marginBottom: 0 }}>{product.name}</h3>
+            <div className="product_price">{formatPrice(product.price_in_cents)}</div>
           </div>
-          <h3 style={{ marginBottom: 0 }}>{product.name}</h3>
-          <div className="product_price">{formatPrice(product.price_in_cents)}</div>
-          <a href="/" className="add_to_cart">
-            Add To Cart
-          </a>
-        </div>
-    ))} 
+        </Link>
+      ))}
     </div>
   </Layout>
 )
@@ -42,6 +47,7 @@ export const pageQuery = graphql`
         name
         price_in_cents
         strapiId
+        slug
         thumbnail {
           childImageSharp {
             fixed(width: 200, height: 200) {
