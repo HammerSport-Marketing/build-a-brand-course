@@ -20,7 +20,7 @@ const makeRequest = (graphql, request) => new Promise((resolve, reject) =>{
     )
 })
 
-exports.createPages = ({actions, grapql}) => {
+exports.createPages = ({actions, graphql}) => {
     const {createPage} = actions
 
     const generateProductPages = makeRequest(graphql, `
