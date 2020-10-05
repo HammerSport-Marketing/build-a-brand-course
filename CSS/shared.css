@@ -1,11 +1,4 @@
-* p,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-label {
+* label, p, h1, h2, h3, h4, h5 {
   margin: 0;
   padding: 0;
   border: 0;
@@ -43,6 +36,14 @@ html {
 
 .bg-blue {
   background-color: #273F6C
+}
+
+.orange {
+  color: #D8602C;
+}
+
+.bg-orange {
+  background-color: #D8602C;
 }
 
 .gradient-text {
@@ -118,17 +119,22 @@ html {
 
 .poppins__reg {
   font-family: 'Poppins', sans-serif;
-  font-size: 1.5rem;
+  font-size: 1.125rem;
 }
 
 .poppins__lg {
   font-family: 'Poppins', sans-serif;
-  font-size: 1.125rem;
+  font-size: 1.5rem;
 }
 
 .poppins__xl {
   font-family: 'Poppins', sans-serif;
   font-size: 2.25rem;
+}
+
+.poppins__xxl {
+  font-family: 'Poppins', sans-serif;
+  font-size: 3rem;
 }
 
 

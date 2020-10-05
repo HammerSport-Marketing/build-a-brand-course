@@ -1,4 +1,11 @@
+p {
+  margin: 0 0 1rem 0;
+}
 
+
+h1 {
+  margin: 0 0 1rem 0;
+}
 
 main {
   flex: 0;
@@ -14,8 +21,9 @@ main {
 
 nav {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
+  align-items: center;
   position: relative;
   height: 16rem;
   background-image: url("../Images/Header.png");
@@ -51,8 +59,9 @@ nav img {
   margin: 3rem 0 0 0;
 }
 
-.nav__para p:nth-of-type(1) {
-  margin: 0 0 1rem 0;
+.nav__para p:nth-of-type(2),
+.nav__para p:nth-of-type(3) {
+  margin: 0 0 0 0;
 }
 
 
@@ -61,9 +70,7 @@ nav img {
 }
 
 
-.hello-friends p {
-
-}
+.hello-friends p {}
 
 
 .hello-friends p:nth-of-type(3) {
@@ -73,9 +80,10 @@ nav img {
 
 .hello-friends__grad-box {
   width: 95%;
-  padding: 0.5rem;
+  padding: 1rem 0.5rem 1rem 0.5rem;
   margin: 0 auto 0 auto;
   border-radius: 0.6875rem;
+  font-size: 0.790rem;
 }
 
 
@@ -84,22 +92,41 @@ nav img {
 }
 
 
+.background-orange {
+  font-family: 'Nunito', sans-serif;
+  font-weight: bold;
+  font-size: 1.5rem;
+
+  padding: 0px 1.25rem 0px 1.25rem;
+  background: rgba(216, 96, 44, 0.35);
+  box-shadow: inset 0px 1.125rem 0px 0px white;
+  border-radius: 0.0625rem;
+}
+
+.background-orange-small {
+  font-family: 'Nunito', sans-serif;
+  font-weight: bold;
+  font-size: 1.340rem;
+
+  padding: 0px 1.25rem 0px 1.25rem;
+  background: rgba(216, 96, 44, 0.35);
+  box-shadow: inset 0px 1.125rem 0px 0px white;
+  border-radius: 0.0625rem;
+}
+
+
 .castle-info {
   margin: 2rem 0 2rem 0;
 }
 
-.castle-info p {
-  margin: 0rem 0 1rem 0;
-}
-
 
 .castle-img-list {
-
+  margin: 2rem 0 2rem 0;
 }
 
 
 .castle__img {
-  margin: 0 0 1rem 0;
+  margin: 0 0 2rem 0;
 }
 
 
@@ -109,9 +136,153 @@ nav img {
 }
 
 
-.castle__list {
+.castle__list {}
+
+
+.proprietary-bp p {
+  margin-bottom: 0;
 }
-  
+
+
+
+.light-blue-box-container {
+  display: flex;
+  flex-direction: column;
+  margin: 2rem 0 2rem 0;
+}
+
+
+.light-blue-box__row {
+  margin: 0 0 0rem 0;
+}
+
+
+.light-blue-box__row--item {
+  width: 100%;
+  padding-bottom: 0.625rem;
+  margin: 0 0 0.5rem 0;
+  background: rgba(2, 99, 255, 0.15);
+  box-shadow: inset 0px 0.9375rem 0px 0px white;
+  border-radius: 1px;
+  font-family: 'Nunito', sans-serif;
+  font-size: 0.875rem;
+  font-weight: bold;
+}
+
+
+.pb-dev-process {}
+
+
+.pb-dev-process p:nth-of-type(1) {
+  margin-bottom: 0.2rem;
+}
+
+.pb-dev-process p:last-of-type {
+  margin-bottom: 0;
+}
+
+
+.pb-dev-process__map {
+  padding: 1rem 0 1rem 0;
+  margin: 1rem 0 1rem 0;
+}
+
+
+.pb-dev-process__map--img img {
+  width: 9rem;
+  padding: 0 0 1rem 0;
+  margin: 1rem 0 0 0;
+  border-bottom: solid white 0.300rem;
+}
+
+
+.pb-dev-process__map--list ul {
+  margin: 1rem 0 2rem 0;
+}
+
+
+.pb-dev-process__map--list li {
+  text-align: left;
+  list-style: none;
+  margin: 0rem 0 0.5rem 0;
+}
+
+
+.pb-dev-process__map--list li:last-of-type {
+  margin-bottom: 0;
+}
+
+
+.frame-5__boxes {
+  margin: 2rem 0 2rem 0;
+}
+
+
+.frame-5__boxes--row {
+  display: flex;
+  justify-content: center;
+}
+
+
+.frame-5__boxes--row div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 9rem;
+  height: auto;
+  padding: 2rem 0 2rem 0;
+  border-radius: 0.9375rem;
+
+  font-family: 'Nunito', sans-serif;
+  font-weight: bold;
+  font-size: 0.700rem;
+  margin: 0.1rem;
+}
+
+.frame-5__boxes--row:nth-of-type(2) div {
+  width: 9rem;
+  height: auto;
+}
+
+
+.frame-5__boxes--row:nth-of-type(3) div {
+  width: 12rem;
+  height: auto;
+}
+
+
+.price-blue {
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  font-size: 3rem;
+  color: #273F6C;
+}
+
+.price-orange {
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  font-size: 3rem;
+  color: #D8602C;
+}
+
+
+.get-started {
+  padding: 1rem 0 1rem 0;
+}
+
+
+.get-started-btn {
+  width: 21rem;
+  height: 4.0625rem;
+  background-color: #D8602C;
+  border: solid #D8602C 1px;
+  border-radius: 2.90625rem;
+
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: white;
+}
 
 
 
@@ -126,161 +297,27 @@ nav img {
 
 
 
+/* Head Section Nav*/
+
+.buy-now-button {
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  font-size: 1.125rem;
+  color: #D8602D;
+  font-weight: bold;
+}
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-/* Sales Page Styles */
-
-/* Head Section*/
-
-.head-section {
-    background-color: ;
-    height: 34.8125rem;
-    background-image: url("../Images/Header.png");
-    background-size: cover;
-    background-position: center;
-  }
-  
-  /* Head Section Nav*/
-  
-  .buy-now-button {
-    font-family: 'Poppins', sans-serif;
-    font-weight: bold;
-    font-size: 1.125rem;
-    color: #D8602D;
-    font-weight: bold;
-  }
-  
-  /* Hello Friends Section*/
-  
-  .grad-box {
-    background: linear-gradient(90deg, #4861B1 0%, #D8602C 100%);
-    border-radius: 0.6875rem;
-    width: 90%;
-  }
-  
-  /* Castle Section*/
-  
-  .background-orange {
-    font-family: 'Nunito', sans-serif;
-    font-weight: bold;
-    font-size: 1.5rem;
-  
-    padding: 0px 1.25rem 0px 1.25rem;
-    background: rgba(216, 96, 44, 0.35);
-    box-shadow: inset 0px 1.125rem 0px 0px white;
-    border-radius: 0.0625rem;
-  }
-  
-  .background-orange-small {
-    font-family: 'Nunito', sans-serif;
-    font-weight: bold;
-    font-size: 1.340rem;
-  
-    padding: 0px 1.25rem 0px 1.25rem;
-    background: rgba(216, 96, 44, 0.35);
-    box-shadow: inset 0px 1.125rem 0px 0px white;
-    border-radius: 0.0625rem;
-  }
-  
-  .custom-border-left {
-    border-left: solid white 10px;
-    border-radius: 0;
-  }
-  
-  /* Proprietary BP Section*/
-  
-  .light-blue-boxes {
-    width: 100%;
-    padding-bottom: 0.625rem;
-    background: rgba(2, 99, 255, 0.15);
-    box-shadow: inset 0px 0.9375rem 0px 0px white;
-    border-radius: 1px;
-    font-family: 'Nunito', sans-serif;
-    font-size: 1.125rem;
-  }
-  
-  /* Proprietary BDP Section*/
-  
-  .grad-head {
-    font-family: 'Nunito', sans-serif;
-    font-weight: bold;
-    font-size: 1.5rem;
-    padding-bottom: 1.25rem;
-    background: -webkit-linear-gradient(left, #1234A8, #D8602D);
-    background: -o-linear-gradient(right, #1234A8, #D8602D);
-    background: -moz-linear-gradient(right, #1234A8, #D8602D);
-    background: linear-gradient(to right, #1234A8, #D8602D);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    text-shadow: 0px 0.25rem 0.25rem rgba(0, 0, 0, 0.25);
-  }
-  
-  /* Frame 5 Section (Dark Blue Boxes)*/
-  
-  .dark-blue-box {
-    width: 13.0625rem;
-    height: 8rem;
-    background-color: #273F6C;
-    border-radius: 0.9375rem;
-  
-    font-family: 'Nunito', sans-serif;
-    font-weight: bold;
-    font-size: 0.800rem;
-    color: white;
-  }
-  
-  .dark-blue-box-col {
-    background-color: #273F6C;
-    border-radius: 0.9375rem;
-  
-    font-family: 'Nunito', sans-serif;
-    font-weight: bold;
-    font-size: 0.700rem;
-    color: white;
-  }
-  
-  
-  /* Official Price Section*/
-  
-  .price-blue {
-    font-family: 'Poppins', sans-serif;
-    font-weight: bold;
-    font-size: 3rem;
-    color: #273F6C;
-  }
-  
-  .price-orange {
-    font-family: 'Poppins', sans-serif;
-    font-weight: bold;
-    font-size: 3rem;
-    color: #D8602C;
-  }
-  
-  /* Get Started Section*/
-  
-  .get-started-btn {
-    width: 22.4375rem;
-    height: 4.0625rem;
-    background-color: #D8602C;
-    border: solid #D8602C 1px;
-    border-radius: 2.90625rem;
-  
-    font-family: 'Poppins', sans-serif;
-    font-weight: bold;
-    font-size: 1.5rem;
-    color: white;
-  }
-
-  
+.grad-head {
+  font-family: 'Nunito', sans-serif;
+  font-weight: bold;
+  font-size: 1.5rem;
+  padding-bottom: 1.25rem;
+  background: -webkit-linear-gradient(left, #1234A8, #D8602D);
+  background: -o-linear-gradient(right, #1234A8, #D8602D);
+  background: -moz-linear-gradient(right, #1234A8, #D8602D);
+  background: linear-gradient(to right, #1234A8, #D8602D);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 0px 0.25rem 0.25rem rgba(0, 0, 0, 0.25);
+}
