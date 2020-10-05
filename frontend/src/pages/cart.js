@@ -1,5 +1,12 @@
 import React, { useState, useCallback } from "react"
-import { getCart, addToCart } from "../utils/cart"
+import {
+  getCart,
+  addToCart,
+  shouldPayShipping,
+  cartSubtotal,
+  cartTotal,
+  SHIPPING_RATE,
+} from "../utils/cart"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Img from "gatsby-image"
@@ -63,6 +70,13 @@ export default () => {
           ))}
         </tbody>
       </table>
+
+      <h3>Subtotal: {formatPrice(cartSubtotal(cart))} </h3>
+      {shouldPayShipping(cart) && (
+        <h3>Shipping : {formatPrice(SHIPPING_RATE)}</h3>
+      )}
+      {!shouldPayShipping(cart) && <h3>Shipping Included! </h3>}
+      <h3>Total: {formatPrice(cartTotal(cart))}</h3>
     </Layout>
   )
 }
