@@ -29,7 +29,7 @@ export const addToCart = (product, qty = 1) => {
 
     if (indexOfProduct !== -1) {
         // Update the quantity
-        cart[indexOfProduct].qty += 1
+        cart[indexOfProduct].qty += parseInt(qty)
 
         if (cart[indexOfProduct].qty === 0) {
             // Remove the product from the cart
@@ -37,7 +37,7 @@ export const addToCart = (product, qty = 1) => {
         }
     } else {
         // Set the qty 1
-        product.qty = 1
+        product.qty = parseInt(qty)
         // Push the product
         cart.push(product)  
     }

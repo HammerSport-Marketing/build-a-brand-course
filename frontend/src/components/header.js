@@ -27,6 +27,11 @@ const Header = ({ siteTitle }) => (
           {siteTitle}
         </Link>
       </h1>
+    <Link to='/cart'
+    style={{
+      color: `white`,
+      textDecoration: `none`,
+    }}>Cart</Link>
     </div>
   </header>
 )
