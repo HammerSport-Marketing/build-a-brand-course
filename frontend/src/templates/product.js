@@ -21,7 +21,7 @@ const ProductTemplate = ({ data }) => {
       />
       <button
         onClick={() => addToCart(data.strapiProduct, qty)}
-        style={{ fontSize: '20px', padding: '24px', borderRadius: '5px' }} >Buy Now</button>
+        style={{ fontSize: '20px', padding: '24px', borderRadius: '5px' }} >Add To Cart</button>
     </Layout>
   )
 }
