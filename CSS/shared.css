@@ -63,6 +63,12 @@ html {
 
 /* Font Groups */
 
+.nunito__head--xs {
+  font-family: 'Nunito', sans-serif;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
 .nunito__head--small {
   font-family: 'Nunito', sans-serif;
   font-weight: bold;
