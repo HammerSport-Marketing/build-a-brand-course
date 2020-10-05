@@ -11,10 +11,13 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Img from "gatsby-image"
 import { formatPrice } from "../utils/format"
+import Checkout from "../components/Checkout"
 export default () => {
   const cart = getCart()
   const [, updateState] = useState()
   const forceUpdate = useCallback(() => updateState({}), [])
+
+  const [showCheckout, setShowCheckout] = useState(false)
   return (
     <Layout>
       <SEO title={cart} />
@@ -77,6 +80,17 @@ export default () => {
       )}
       {!shouldPayShipping(cart) && <h3>Shipping Included! </h3>}
       <h3>Total: {formatPrice(cartTotal(cart))}</h3>
+      <div>
+        {cart && cart.length > 0 && (
+          <button
+            onClick={() => setShowCheckout(true)}
+            style={{ fontSize: "24px", padding: "12px 24px" }}
+          >
+            Initate Checkout
+          </button>
+        )}
+      </div>
+      {showCheckout && <Checkout cart={cart} />}
     </Layout>
   )
 }

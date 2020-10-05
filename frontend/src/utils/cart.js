@@ -66,7 +66,7 @@ export const shouldPayShipping = (cart) => {
 }
 
 export const cartTotal = (cart) => {
-    if(cart.lenght === 0 ){
+    if(cart.length === 0 ){
         return 0
     }
     
