@@ -9,7 +9,7 @@ import {fromProductSlugToUrl} from '../utils/products'
 const IndexPage = ({ data }) => (
   <Layout>
     <SEO title="Home" />
-    <h2>Shop</h2>
+    <h2>HammerSport Store</h2>
     <div className="grid_container" style={{
       display: 'grid',
       gridTemplateColumns: 'repeat(3, 1fr)',
