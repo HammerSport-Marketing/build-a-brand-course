@@ -127,6 +127,11 @@ main {
 
 @media (min-width: 48rem) {
 
+
+  .thank-you-text p {
+    font-size: 1.5rem;
+  }
+
   .co-founder-container {
     flex-direction: row;
     margin: 6rem auto 6rem auto;
