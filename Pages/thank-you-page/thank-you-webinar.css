@@ -130,10 +130,20 @@ main {
   .co-founder-container {
     flex-direction: row;
     margin: 6rem auto 6rem auto;
+    max-width: 57.9640625rem;
+  }
+  
+
+  .co-founder {
+    
   }
 
   .co-founder:nth-of-type(1) {
     margin: 0 1rem 0 0;
+  }
+
+  .co-founder__info p {
+    
   }
 
   .invite-friend-text p {
@@ -151,4 +161,31 @@ main {
     margin: 0;
   }
 
+}
+
+
+
+
+@media (min-width: 64rem) {
+
+  .co-founder-container {
+    flex-direction: row;
+    margin: 6rem auto 6rem auto;
+    max-width: 57.9640625rem;
+  }
+  
+
+  .co-founder {
+    max-width: 100%;
+  }
+
+  .co-founder__info p {
+    font-size: 0.875rem;
+  }
+
+  .co-founder__img img {
+    width: 7.5rem;
+    height: auto;
+    border-radius: 0.9rem;
+  }
 }
