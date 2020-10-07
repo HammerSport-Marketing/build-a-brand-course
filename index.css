@@ -321,6 +321,11 @@ nav img {
 
 
 
+
+
+
+
+
 @media (min-width: 48rem) {
 
   .nav-mobile {
@@ -355,8 +360,48 @@ nav img {
   }
 
 
+  .buy-now-button {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 1.125rem;
+    color: #D8602D;
+    font-weight: bold;
+    border: solid white 1px;
+    border-radius: 0.6rem;
+  }
+
+
+  .hello-friends {
+    margin: 2rem auto 2rem auto;
+    padding: 0 0.5rem 0 0.5rem;
+    max-width: 55rem;
+  }
+
+
+  .hello-friends p {
+    font-size: 1.125rem;
+  }
+
+
   .hello-friends__grad-box {
     font-size: 1rem;
+    max-width: 37rem;
+  }
+
+  .castle-info {
+    max-width: 48rem;
+  }
+
+  .br-mobile {
+    display: none;
+  }
+
+  .castle-info p {
+    font-size: 1.125rem;
+  }
+
+  .castle-info h1 {
+    font-size: 1.5rem;
   }
 
 
@@ -390,6 +435,7 @@ nav img {
     width: 40%;
     text-align: justify;
     margin: 0 0 0 10%;
+    font-size: 1.125rem;
   }
 
 
@@ -429,7 +475,13 @@ nav img {
   .light-blue-box__row--item {
     width: 50%;
     margin: 0 2rem 0 2rem;
-    max-width: 27.2143125rem;
+    max-width: 35rem;
+    font-size: 1rem;
+  }
+
+
+  .pb-dev-process p {
+    font-size: 1.125rem;
   }
 
 
@@ -459,9 +511,13 @@ nav img {
 
   .map-sec__list {
     text-align: left;
-    width: 40%;
+    width: 44%;
     margin: 0;
-    max-width: 17.9643125rem;
+    max-width: 25rem;
+  }
+
+  .map-sec__list p {
+    font-size: 1.125rem;
   }
 
 
@@ -471,6 +527,15 @@ nav img {
 
   .pb-dev-process p:nth-of-type(1) {
     margin-bottom: 1rem;
+  }
+
+
+  .frame-5 p {
+    font-size: 1.125rem;
+  }
+
+  .frame-5 h1 {
+    font-size: 1.5rem;
   }
 
 
@@ -516,45 +581,25 @@ nav img {
   }
 
 
-
-}
-
-
-
+  .official-price p {
+    font-size: 1.125rem;
+  }
 
 
+  .official-price h1 {
+    font-size: 1.5rem;
+  }
+
+
+  .get-started p {
+    font-size: 1.125rem;
+  }
+
+
+  .get-started h1 {
+    font-size: 1.5rem;
+  }
 
 
 
-
-
-
-
-
-
-/* Head Section Nav*/
-
-.buy-now-button {
-  font-family: 'Poppins', sans-serif;
-  font-weight: bold;
-  font-size: 1.125rem;
-  color: #D8602D;
-  font-weight: bold;
-  border: solid white 1px;
-  border-radius: 0.6rem;
-}
-
-
-.grad-head {
-  font-family: 'Nunito', sans-serif;
-  font-weight: bold;
-  font-size: 1.5rem;
-  padding-bottom: 1.25rem;
-  background: -webkit-linear-gradient(left, #1234A8, #D8602D);
-  background: -o-linear-gradient(right, #1234A8, #D8602D);
-  background: -moz-linear-gradient(right, #1234A8, #D8602D);
-  background: linear-gradient(to right, #1234A8, #D8602D);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  text-shadow: 0px 0.25rem 0.25rem rgba(0, 0, 0, 0.25);
 }
