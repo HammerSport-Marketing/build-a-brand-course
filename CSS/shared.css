@@ -143,6 +143,10 @@ html {
   font-size: 3rem;
 }
 
+a:hover {
+  cursor: pointer;
+}
+
 
 body {
   height: 100%;
