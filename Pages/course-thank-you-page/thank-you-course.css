@@ -1,0 +1,257 @@
+header {
+    text-align: center;
+}
+
+
+header img {
+    width: 15rem;
+    height: auto;
+}
+
+
+main {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    margin: 0rem 0 0 0;
+  }
+
+
+.welcome-text {
+    text-align: center;
+    margin: 0rem 0 3rem 0;
+}
+
+
+.banner {
+    margin: 0 0 0 0;
+}
+
+.banner img {
+    width: 100%;
+}
+
+
+.co-founder-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 3rem auto 3rem auto;
+}
+
+.co-founder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 22.625rem;
+    margin: 0rem auto 0rem auto;
+    padding: 0 0.5rem 0 0.5rem;
+}
+
+.co-founder:nth-of-type(1) {
+    margin-bottom: 3rem;
+}
+
+.co-founder__img {
+    margin: 0 0 0 0;
+}
+
+.co-founder__img img {
+    width: 6rem;
+    height: auto;
+    border-radius: 0.9rem;
+}
+
+.co-founder__info p {
+    margin: auto 0 auto 0.5rem;
+    text-align: justify;
+}
+
+
+.list-section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 1.5rem 0 1.5rem 0;
+    background-image: url('../../Images/Rectangle.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.list__head {
+    width: 90%;
+    max-width: 18.125rem;
+    margin: 0 0 1rem 1rem;
+    text-align: justify;
+}
+
+
+.list__container {
+    width: 90%;
+    margin: 0 0 0 3.5rem;
+}
+
+.list {
+    margin: 0;
+}
+
+
+.list__item {
+    padding: 0.3rem 0 0.3rem 0;
+}
+
+.list__item:nth-of-type(5) {
+    padding-bottom: 0;
+}
+
+
+.info-section {
+    text-align: center;
+    margin: 3rem 0 3rem 0;
+}
+
+.info-section__para {
+    max-width: 33.9375rem;
+    margin: 0 auto 1rem auto;
+}
+
+.info-section__para:nth-of-type(6) {
+    margin-bottom: 0;
+}
+
+
+.audit-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0 3rem 0;
+}
+
+.audit-section p {
+    margin: 0;
+}
+
+.audit-section button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background: #273F6C;
+    border-radius: 2rem;
+    width: 100%;
+    max-width: 14.625rem;
+    height: 3.5rem;
+    margin: 1.5rem 0 1.5rem 0;
+    font-family: Nunito;
+    font-weight: bold;
+    font-size: 1.125rem;
+}
+
+
+.footer-info {
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Media Q's */
+
+@media (min-width: 48rem) {
+
+    header {
+        text-align: left;
+    }
+
+    .welcome-text {
+        font-size: 1.5rem;
+    }
+
+    .co-founder-container {
+        flex-direction: row;
+        justify-content: center;
+        margin: 3rem 0 3rem 0;
+    }
+
+    .co-founder {
+        width: 100%;
+        margin: 0 0 0 0;
+        max-width: 32.5rem;
+    }
+
+    .co-founder:nth-of-type(1) {
+        margin: 0 3rem 0 0;
+    }
+
+    .co-founder__img img {
+        width: 8rem;
+        height: auto;
+    }
+
+    .co-founder__info p {
+        font-size: 0.8rem;
+        text-align: justify;
+        margin: auto 0 auto 0.5rem;
+    }
+
+
+
+    .list__head {
+        max-width: 35rem;
+        font-size: 0.9rem;
+    }
+
+    .list__container {
+        margin: 0 0 0 5rem;
+    }
+
+
+    .list__item {
+        font-size: 0.9rem;
+    }
+
+
+    .info-section {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .info-section div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+    }
+
+    .info-section__para {
+        width: 90%;
+        max-width: 35rem;
+        font-size: 0.9rem;
+        margin: 0 auto 1rem auto;
+        text-align: justify;
+    }
+
+    .info-section__para:nth-of-type(6) {
+        margin-bottom: 0;
+    }
+
+}
