@@ -1,4 +1,12 @@
-* label, p, h1, h2, h3, h4, h5 {
+@import 'index.scss';
+@import './Pages/check-out-page/check-out.scss';
+@import './Pages/course-thank-you-page/thank-you-course.scss';
+@import './Pages/registration-page/registration.scss';
+@import './Pages/thank-you-page/thank-you-webinar.scss';
+
+
+
+* label {
   margin: 0;
   padding: 0;
   border: 0;
@@ -167,9 +175,7 @@ footer {
   border-top-left-radius: 0.9375rem;
   border-top-right-radius: 0.9375rem;
 
-}
-
-.footer__info {
+  .footer__info {
   text-align: center;
   font-weight: bold;
   width: 100%;
@@ -184,4 +190,6 @@ footer {
   width: 70%;
   max-width: 25rem;
   margin: 0 0 1rem 0;
+}
+
 }
