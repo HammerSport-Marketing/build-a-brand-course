@@ -1,0 +1,39 @@
+
+
+.white {
+  color: white;
+}
+
+.bg-white {
+  background-color: white;
+}
+
+.dark-blue {
+  color: #273F6C;
+}
+
+.bg-blue {
+  background-color: #273F6C
+}
+
+.orange {
+  color: #D8602C;
+}
+
+.bg-orange {
+  background-color: #D8602C;
+}
+
+.gradient-text {
+  background: -webkit-linear-gradient(left, #273F6C, #D8602C);
+  background: -o-linear-gradient(right, #273F6C, #D8602C);
+  background: -moz-linear-gradient(right, #273F6C, #D8602C);
+  background: linear-gradient(to right, #273F6C, #D8602C);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+.gradient-bg {
+  background: linear-gradient(90deg, #4861B1 0%, #D8602C 100%);
+}
