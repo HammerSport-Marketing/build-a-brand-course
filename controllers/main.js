@@ -8,6 +8,10 @@ exports.postCheckout = (req, res, next) => {
     res.sendFile(path.join(rootDir, 'views', 'add-product.html'))
   }
 
+exports.getThankYouPage = (req, res, next) => {
+  res.status(200).render('thank-you', {pageTitle: 'Thank You!'})
+}
+
 exports.getIndexPage = (req, res, next) => {
     /**
      * sendFile() Detects the correct path based on operating system.

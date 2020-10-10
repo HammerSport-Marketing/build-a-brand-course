@@ -8,6 +8,8 @@ router.get("/checkout", mainController.getCheckoutPage);
 
 router.post("/checkout", mainController.postCheckout);
 
+router.get('/thank-you', mainController.getThankYouPage)
+
 router.get("/", mainController.getIndexPage );
 
 module.exports = router;
