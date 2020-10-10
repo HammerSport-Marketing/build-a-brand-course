@@ -4,5 +4,27 @@
     "express": "^4.17.1",
     "nodemon": "^2.0.4",
     "stripe": "^8.107.0"
-  }
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "name": "brand-building-funnel",
+  "version": "1.0.0",
+  "description": "Our brand building course funnel.",
+  "main": "server.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HammerSport-Marketing/build-a-brand-course.git"
+  },
+  "keywords": [
+    "HammerSport",
+    "Marketing"
+  ],
+  "author": "Riley Seaburg",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/HammerSport-Marketing/build-a-brand-course/issues"
+  },
+  "homepage": "https://github.com/HammerSport-Marketing/build-a-brand-course#readme"
 }
