@@ -167,6 +167,10 @@ footer .footer__images {
   max-width: 25rem;
   margin: 0 0 1rem 0;
 }
+footer .footer__images img {
+  width: 1.4375rem;
+  height: auto;
+}
 
 .index-header .nav-desktop {
   display: none;
@@ -1087,6 +1091,10 @@ footer .footer__images {
   justify-content: center;
   align-items: center;
   margin: 1rem 0 0rem 0;
+}
+.webinar-thank-you-header img {
+  width: 15rem;
+  height: auto;
 }
 
 .webinar-thank-you-main {
