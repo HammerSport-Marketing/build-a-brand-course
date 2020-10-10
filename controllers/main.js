@@ -1,12 +1,6 @@
 
 exports.getCheckoutPage = (req, res, next) => {
-  console.log("Middleware");
-  res.send(
-    `<form action="/admin/product" method="POST" >
-          <input type="text" name="title">
-          <button type="submit">Submit</button>
-      </form>`
-  );
+  res.status(200).render('checkout', {pageTitle: 'Secure Checkout Page'})
 };
 
 exports.postCheckout = (req, res, next) => {
