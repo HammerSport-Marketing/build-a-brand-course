@@ -730,6 +730,11 @@ footer .footer__images {
 }
 
 @media (min-width: 42.8rem) {
+  .check-out-header img {
+    width: 13rem;
+    height: auto;
+  }
+
   .check-out-main {
     margin: 2rem 0 2rem 0;
   }
