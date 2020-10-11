@@ -10,6 +10,10 @@ router.post("/checkout", mainController.postCheckout);
 
 router.get('/thank-you', mainController.getThankYouPage)
 
+router.get('/add-product', mainController.getAddProductPage)
+
+router.post('/add-product', mainController.postAddProducts)
+
 router.get("/", mainController.getIndexPage );
 
 module.exports = router;

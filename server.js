@@ -27,5 +27,5 @@ app.use((req, res, next) => {
   res.status(404).render('404',{pageTitle: '404 Error'})
 })
 
-app.listen(4000);
+app.listen(4000)
 console.log('Server running on port 4000' );

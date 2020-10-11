@@ -3,7 +3,7 @@
     "ejs": "^3.1.5",
     "express": "^4.17.1",
     "nodemon": "^2.0.4",
-    "stripe": "^8.107.0"
+    "stripe": "^8.109.0"
   },
   "scripts": {
     "start": "node server.js"

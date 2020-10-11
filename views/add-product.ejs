@@ -1,0 +1,38 @@
+<%- include ('includes/header.ejs') %>
+<section class="bg-blue">
+
+    <header class="check-out-header">
+        <a href="/">
+            <img src="../Images/HSM_Logo_white.png" alt="" loading="lazy" />
+        </a>
+    </header>
+
+
+    <main class="check-out-main">
+
+        <form action="/add-product" method="POST" >
+
+            <!-- Form Section Heading -->
+            <div class="form__heading poppins__reg font-weight-bold">
+               Add A Product
+            </div>
+
+            <p class="poppins__lg font-weight-bold">Product Details:</p>
+
+            <label class="poppins__xs" for="name">Product Name</label>
+            <input type="text" id="name">
+
+
+            <label class="poppins__xs" for="email">Price</label>
+            <input type="text" id="price">
+            <label class="poppins__xs" for="description">Description</label>
+            <textarea name="description" id="description" cols="40" rows="10"></textarea>
+            <label class="poppins__xs" for="thumbnail">Thumbnail</label>
+            <input type="file" name="thumbnail" id="thumbnail">
+            <button  type="submit" class="check-out-button">Submit</button>
+        </form>
+    </main>
+</section>
+    <%- include ('includes/footer.ejs') %>
+
+    <%- include ('includes/footer.ejs') %>
