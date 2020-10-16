@@ -8,6 +8,8 @@ router.get("/checkout", mainController.getCheckoutPage);
 
 router.post("/checkout", mainController.postCheckout);
 
+router.post("/create-payment-intent", mainController.postPaymentIntent)
+
 router.get('/thank-you', mainController.getThankYouPage)
 
 router.get('/add-product', mainController.getAddProductPage)

@@ -1,0 +1,138 @@
+<%- include ('includes/header.ejs') %>
+<% const formatPrice = (priceWidthDecimal) => {
+    const realPrice = parseInt(priceWidthDecimal) / 100 
+    return realPrice.toLocaleString('en-US', {
+        style: 'currency',
+        currency: 'USD'
+    })
+}
+%>
+<section class="bg-blue">
+
+    <header class="check-out-header">
+        <a href="/">
+            <img src="../Images/HSM_Logo_white.png" alt="" loading="lazy" />
+        </a>
+    </header>
+
+
+    <main class="check-out-main">
+
+        <!-- Cart -->
+        <div>
+            <div class="cart cart-grad">
+
+                <div class="cart-item poppins-reg white">
+                    <p>HSM Proprietary Brand Development Course
+                    </p>
+                </div>
+
+                <div class="cart-item--amount poppins-checkOut white">
+                    <p>Amount <br /> 1 </p>
+                </div>
+
+
+                <div class="cart__total--blank bg-white"></div>
+
+
+                <div class="cart-item--price poppins-checkOut white">
+                    <p>Price <br />
+                        <%= formatPrice(price) %>
+                    </p>
+                </div>
+
+
+                <div class="cart__total poppins-checkOut-big white">
+                    <p>Total</p>
+                </div>
+
+                <div class="cart__total-price white">
+                    <p> <%= formatPrice(price) %> </p>
+                </div>
+
+            </div>
+        </div>
+
+
+        <!-- Check-out Form -->
+
+        <form id="payment-form" method="POST" action="/checkout">
+
+            <!-- Form Section Heading -->
+            <div class="form__heading poppins__reg font-weight-bold">
+                Check Out
+            </div>
+
+            <p class="poppins__lg font-weight-bold">Contact Information:</p>
+
+            <label class="poppins__xs" for="name">Name</label>
+            <input type="text" id="name">
+
+
+            <label class="poppins__xs" for="email">Email</label>
+            <input type="email" id="email">
+
+            <label class="poppins__xs" for="password">Password</label>
+            <input type="password" id="password">
+
+
+            <p class="poppins__lg font-weight-bold">Billing Details:</p>
+
+            <label class="poppins__xs" for="address">Address</label>
+            <input type="text" id="address">
+
+
+            <label class="poppins__xs" for="second-address">Second Address
+                <span class="optional--text font-italic">optional</span>
+            </label>
+            <input type="text" id="second-address">
+
+            <span class="inline-inputs">
+                <div>
+                    <label class="poppins__xs" for="state">State</label>
+                    <input type="text" id="state">
+                </div>
+
+                <div>
+                    <label class="poppins__xs" for="zip-code">ZIP Code</label>
+                    <input type="text" id="zip-code">
+                </div>
+
+                <div>
+                    <label class="poppins__xs" for="country">Country</label>
+                    <input type="text" id="country">
+                </div>
+            </span>
+
+
+            <p class="poppins__lg font-weight-bold">Payment Information:</p>
+
+            <div class="form__radio bg-blue white">
+                <input type="radio" id="credit-card" name="credit-card" value="true">
+                <label class="poppins__xs" for="credit-card">Credit Card</label>
+            </div>
+
+
+            <div class="form-row">
+                <label class="poppins__xs" for="card-element">Credit or Debit Card</label>
+                <div id="card-element" class="input">
+                    
+                </div>
+                <p id="card-error" role="alert"></p>
+
+            </div>
+            <!-- <input type="text" id="card-name">
+            <label class="poppins__xs" for="card-number">Card Number</label>
+            <input type="text" id="card-number"> -->
+
+            <button type="submit" id="submit" data-secret="{{ client_secret }}" class="check-out-button"><span id="button-text">Pay</span>
+                <div class="spinner hidden" id="spinner"></div>
+            </button>
+        </form>
+    </main>
+</section>
+
+<script src="https://js.stripe.com/v3/"></script>
+<script src="https://polyfill.io/v3/polyfill.min.js?version=3.52.1&features=fetch"></script>
+<script src="./javascript/client.js"></script>
+<%- include ('includes/footer.ejs') %>
