@@ -2,7 +2,7 @@ const Product = require("../models/product");
 const stripe = require("stripe")("sk_test_BKude3ntS4bqXqaQMvAlf5oa");
 exports.getCheckoutPage = async (req, res, next) => {
   let amount = 199979
-  res.status(200).render("checkout-test", { pageTitle: "Secure Checkout Page", price: amount });
+  res.status(200).render("checkout", { pageTitle: "Secure Checkout Page", price: amount });
 };
 
 exports.postPaymentIntent = async (req, res, next) => {
